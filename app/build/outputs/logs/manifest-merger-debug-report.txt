@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:6:22-76
+application
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:8:5-29:19
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\aee81e03c5f88c9a29d3a111112729f6b373ee6c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\fdc731a00bb37d6c64a267915b484a9d839f2124\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\9065c6dc7ac029aecf608f2fdacb892924dc558d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\40002840b6310b4607917e37bb4ef5ef5749c545\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\113e2823f835e2c430c0521e92557f812b70c150\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\da5d02a2140cb324edf4a68831b6569f9b0002b9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\36cabd7ba8f3df30748f4d83f9f7d733f29f8151\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\bd735b7be55e026f6021613781caa1c96d156d19\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\0619eb76eec3cff5f584ff38b1902c1902419772\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\d9e5b88a8656003b4cd4492d168c8be7483ef082\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fcost\.android\build-cache\72e9289e6e5cee7f5dd300bad78fe5bcf3511ccd\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.apptest.accenture.accentureinterview.activities.MainActivity
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:label
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:17:13-45
+	android:theme
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:16:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.apptest.accenture.accentureinterview.activities.LoggedInActivity
+ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:25:9-28:68
+	android:label
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:27:13-61
+	android:theme
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:28:13-56
+	android:name
+		ADDED from D:\AccentureInterview\app\src\main\AndroidManifest.xml:26:13-56
+uses-sdk
+INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\aee81e03c5f88c9a29d3a111112729f6b373ee6c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\fdc731a00bb37d6c64a267915b484a9d839f2124\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\9065c6dc7ac029aecf608f2fdacb892924dc558d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\412709f4c890f7448a6a02daaa6591c9bd015f3e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\40002840b6310b4607917e37bb4ef5ef5749c545\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\113e2823f835e2c430c0521e92557f812b70c150\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\da5d02a2140cb324edf4a68831b6569f9b0002b9\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\36cabd7ba8f3df30748f4d83f9f7d733f29f8151\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\bd735b7be55e026f6021613781caa1c96d156d19\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\0619eb76eec3cff5f584ff38b1902c1902419772\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\d9e5b88a8656003b4cd4492d168c8be7483ef082\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\fcost\.android\build-cache\72e9289e6e5cee7f5dd300bad78fe5bcf3511ccd\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AccentureInterview\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\aee81e03c5f88c9a29d3a111112729f6b373ee6c\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\fdc731a00bb37d6c64a267915b484a9d839f2124\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\9065c6dc7ac029aecf608f2fdacb892924dc558d\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\412709f4c890f7448a6a02daaa6591c9bd015f3e\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\40002840b6310b4607917e37bb4ef5ef5749c545\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\113e2823f835e2c430c0521e92557f812b70c150\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\da5d02a2140cb324edf4a68831b6569f9b0002b9\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\36cabd7ba8f3df30748f4d83f9f7d733f29f8151\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\bd735b7be55e026f6021613781caa1c96d156d19\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\0619eb76eec3cff5f584ff38b1902c1902419772\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\d9e5b88a8656003b4cd4492d168c8be7483ef082\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\fcost\.android\build-cache\e31ee2d263d760e72a530287a816de31f9841bee\output\AndroidManifest.xml:26:9-47

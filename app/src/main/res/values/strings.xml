@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">AccentureInterview</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="investment_fund">Fundo</string>
+    <string name="investment_cdi">CDI</string>
+    <string name="investment_inthemonth">No Mês</string>
+    <string name="investment_intheyear">No Ano</string>
+    <string name="investment_12months">12 Meses</string>
+
+    <string name="complete_name">Nome completo</string>
+
+    <string name="emailRegister">Gostaria de cadastrar meu e-mail</string>
+    <string name="sendingMessage">Enviando...</string>
+    <string name="wait">Aguarde!</string>
+    <string name="thankyou">Obrigado!</string>
+    <string name="attention">Atenção!</string>
+    <string name="message_success">Mensagem enviada com sucesso :)</string>
+    <string name="invalid_phone_number">O telefone está em um formato incorreto, favor corrigir!</string>
+    <string name="invalid_email">O email está em um formato incorreto, favor corrigir!</string>
+    <string name="invalid_contact_name">O campo Nome completo é de preenchimento obrigatório!</string>
+
+
+    <string name="loading">Carregando...</string>
+
+    <string name="login">Login</string>
+    <string name="user_name">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="remember_password">Lembrar senha</string>
+    <string name="invalid_user">Usuário inválido</string>
+    <string name="invalid_password">Senha inválida</string>
+    <string name="empty_user">Usuário não pode ser vazio!</string>
+    <string name="empty_password">Senha não pode ser vazio!</string>
+    <string name="invalid_user_login">Usuário inválido! Por favor, verifique o seu cadastro.</string>
+    <string name="invalid_user_password">Senha inválida! Por favor, verifique o seu cadastro.</string>
+    <string name="login_success">Login realizado com sucesso!</string>
+
+    <string name="user">Usuário</string>
+    <string name="email">Email</string>
+    <string name="telephone">Telefone</string>
+    <string name="getNews">Receber novidades por email?</string>
+    <string name="user_created_success">Usuário criado com sucesso!</string>
+    <string name="user_created_error">Erro ao criar usuário!</string>
+    <string name="user_already_exist">O usuário já existe!</string>
+    <string name="empty_telephone">O telefone é um campo obrigatório!</string>
+    <string name="empty_email">O email é um campo obrigatório!</string>
+
+    <string name="expense_category">Categoria da despesa</string>
+    <string name="empty_category">O campo Categoria deve possuir algum valor!</string>
+    <string name="category_already_exists">A categoria já existe!</string>
+
+    <string name="success">Sucesso!</string>
+    <string name="error">Erro!</string>
+    <string name="error_sqlite_insert">Ocorreu um erro na gravação do registro!</string>
+    <string name="logout">Sair/Logout</string>
+
+    <string name="no_internet_connection">Para realizar essa ação você precisa estar conectado a internet, favor verificar!</string>
+    <string name="title_activity_logged_in">LoggedInActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

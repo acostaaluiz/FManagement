@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\e31ee2d263d760e72a530287a816de31f9841bee\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\e31ee2d263d760e72a530287a816de31f9841bee\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\e31ee2d263d760e72a530287a816de31f9841bee\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\e31ee2d263d760e72a530287a816de31f9841bee\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\AccentureInterview\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_logged_in_drawer.xml",
+        "source": "D:\\AccentureInterview\\app\\src\\main\\res\\menu\\activity_logged_in_drawer.xml"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logged_in.xml",
+        "source": "D:\\AccentureInterview\\app\\src\\main\\res\\menu\\logged_in.xml"
+    }
+]
