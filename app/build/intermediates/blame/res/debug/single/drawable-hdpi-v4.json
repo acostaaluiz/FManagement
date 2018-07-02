@@ -52,12 +52,12 @@
         "source": "C:\\Users\\fcost\\.android\\build-cache\\e31ee2d263d760e72a530287a816de31f9841bee\\output\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",

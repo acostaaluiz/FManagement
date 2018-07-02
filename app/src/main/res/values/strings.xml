@@ -50,6 +50,17 @@
     <string name="empty_category">O campo Categoria deve possuir algum valor!</string>
     <string name="category_already_exists">A categoria já existe!</string>
 
+    <string name="expense">Despesa</string>
+
+    <string name="expense_date">Data liquidação</string>
+    <string name="expense_frequency">Frequência</string>
+    <string name="expense_price">Valor da despesa</string>
+    <string name="empty_expense">O campo Despesa deve possuir algum valor!</string>
+    <string name="empty_expense_date">O campo Data liquidação deve possuir algum valor!</string>
+    <string name="empty_expense_frequency">O campo Frequência deve possuir algum valor!</string>
+    <string name="empty_price">O campo Valor da despesa deve possuir algum valor!</string>
+    <string name="expense_already_exists">A despesa já existe!</string>
+
     <string name="success">Sucesso!</string>
     <string name="error">Erro!</string>
     <string name="error_sqlite_insert">Ocorreu um erro na gravação do registro!</string>
