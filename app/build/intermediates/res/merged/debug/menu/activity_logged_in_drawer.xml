@@ -10,6 +10,14 @@
             android:id="@+id/nav_expense"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/expense" />
+        <item
+            android:id="@+id/nav_category_income"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/category_income" />
+        <item
+            android:id="@+id/nav_income"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/income" />
     </group>
 
     <item android:title="Communicate">

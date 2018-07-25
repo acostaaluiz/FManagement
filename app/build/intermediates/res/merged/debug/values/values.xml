@@ -108,6 +108,7 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="black">#000000</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -138,6 +139,7 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="grey">#404040</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -163,6 +165,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="ringShadow">#d6d6c2</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -173,6 +176,7 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="white">#ffffff</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -700,20 +704,29 @@
     <string name="attention">Atenção!</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="category_already_exists">A categoria já existe!</string>
+    <string name="category_income">Categoria da entrada</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="complete_name">Nome completo</string>
+    <string name="creating">Criando...</string>
+    <string name="deleting">Deletando...</string>
     <string name="email">Email</string>
-    <string name="emailRegister">Gostaria de cadastrar meu e-mail</string>
     <string name="empty_category">O campo Categoria deve possuir algum valor!</string>
+    <string name="empty_category_income">O campo Categoria entrada deve possuir algum valor!</string>
     <string name="empty_email">O email é um campo obrigatório!</string>
     <string name="empty_expense">O campo Despesa deve possuir algum valor!</string>
     <string name="empty_expense_date">O campo Data liquidação deve possuir algum valor!</string>
     <string name="empty_expense_frequency">O campo Frequência deve possuir algum valor!</string>
+    <string name="empty_income">O campo Despesa deve possuir algum valor!</string>
+    <string name="empty_income_date">O campo Despesa deve possuir algum valor!</string>
+    <string name="empty_income_frequency">O campo Despesa deve possuir algum valor!</string>
+    <string name="empty_income_price">O campo Valor entrada deve possuir algum valor!</string>
+    <string name="empty_income_todate">O campo Despesa deve possuir algum valor!</string>
     <string name="empty_password">Senha não pode ser vazio!</string>
     <string name="empty_price">O campo Valor da despesa deve possuir algum valor!</string>
     <string name="empty_telephone">O telefone é um campo obrigatório!</string>
     <string name="empty_user">Usuário não pode ser vazio!</string>
     <string name="error">Erro!</string>
+    <string name="error_connection_server">Ocorreu um erro na conexão com o servidor!</string>
+    <string name="error_restapi_response">Erro! Não foi possível continuar!</string>
     <string name="error_sqlite_insert">Ocorreu um erro na gravação do registro!</string>
     <string name="expense">Despesa</string>
     <string name="expense_already_exists">A despesa já existe!</string>
@@ -722,23 +735,22 @@
     <string name="expense_frequency">Frequência</string>
     <string name="expense_price">Valor da despesa</string>
     <string name="getNews">Receber novidades por email?</string>
-    <string name="invalid_contact_name">O campo Nome completo é de preenchimento obrigatório!</string>
+    <string name="income">Entrada</string>
+    <string name="income_already_exists">A entrada já existe!</string>
+    <string name="income_date">Data entrada</string>
+    <string name="income_frequency">Frequência</string>
+    <string name="income_price">Valor entrada</string>
+    <string name="income_todate">Até</string>
     <string name="invalid_email">O email está em um formato incorreto, favor corrigir!</string>
     <string name="invalid_password">Senha inválida</string>
     <string name="invalid_phone_number">O telefone está em um formato incorreto, favor corrigir!</string>
     <string name="invalid_user">Usuário inválido</string>
     <string name="invalid_user_login">Usuário inválido! Por favor, verifique o seu cadastro.</string>
     <string name="invalid_user_password">Senha inválida! Por favor, verifique o seu cadastro.</string>
-    <string name="investment_12months">12 Meses</string>
-    <string name="investment_cdi">CDI</string>
-    <string name="investment_fund">Fundo</string>
-    <string name="investment_inthemonth">No Mês</string>
-    <string name="investment_intheyear">No Ano</string>
     <string name="loading">Carregando...</string>
     <string name="login">Login</string>
     <string name="login_success">Login realizado com sucesso!</string>
     <string name="logout">Sair/Logout</string>
-    <string name="message_success">Mensagem enviada com sucesso :)</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="no_internet_connection">Para realizar essa ação você precisa estar conectado a internet, favor verificar!</string>
@@ -751,18 +763,15 @@
     <string name="remember_password">Lembrar senha</string>
     <string name="search_menu_title">Search</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="sendingMessage">Enviando...</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="success">Sucesso!</string>
     <string name="telephone">Telefone</string>
-    <string name="thankyou">Obrigado!</string>
-    <string name="title_activity_logged_in">LoggedInActivity</string>
+    <string name="title_activity_logged_in">Empresa no Bolso</string>
     <string name="user">Usuário</string>
     <string name="user_already_exist">O usuário já existe!</string>
     <string name="user_created_error">Erro ao criar usuário!</string>
     <string name="user_created_success">Usuário criado com sucesso!</string>
     <string name="user_name">Usuário</string>
-    <string name="wait">Aguarde!</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

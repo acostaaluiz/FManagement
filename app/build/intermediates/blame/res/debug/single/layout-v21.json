@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\fcost\\.android\\build-cache\\aee81e03c5f88c9a29d3a111112729f6b373ee6c\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]
