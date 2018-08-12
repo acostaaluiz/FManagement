@@ -1,10 +1,7 @@
 package com.apptest.accenture.accentureinterview.activities;
 
-import android.app.ProgressDialog;
-import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
-import android.os.AsyncTask;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 
@@ -22,9 +19,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.apptest.accenture.accentureinterview.R;
-import com.apptest.accenture.accentureinterview.data.SqliteHelper;
-import com.apptest.accenture.accentureinterview.fragments.FragmentContact;
-import com.apptest.accenture.accentureinterview.fragments.FragmentInvestment;
 import com.apptest.accenture.accentureinterview.fragments.FragmentLogin;
 import com.apptest.accenture.accentureinterview.fragments.FragmentUser;
 
@@ -198,36 +192,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-    public class CreateSQLite extends AsyncTask<Integer, String, Integer> {
-
-        ProgressDialog progress;
-        Context context;
-
-        public CreateSQLite(Context context) {
-            this.context = context;
-        }
-
-        protected void onPreExecute() {
-
-
-        }
-
-        protected Integer doInBackground(Integer... paramss) {
-
-            SqliteHelper dbHelper = new SqliteHelper(MainActivity.this);
-            mDb = openOrCreateDatabase("FManagement.db", Context.MODE_PRIVATE, null);
-            dbHelper.onUpgrade(mDb, 4, 5);
-
-            return 0;
-
-        }
-
-        protected void onPostExecute(Integer result) {
-
-
-        }
-    }
-
-
 }

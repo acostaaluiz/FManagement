@@ -1,9 +1,9 @@
 package com.apptest.accenture.accentureinterview.activities;
 
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -14,6 +14,10 @@ import android.view.MenuItem;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.fragments.FragmentCategory;
+import com.apptest.accenture.accentureinterview.fragments.FragmentCategoryIncome;
+import com.apptest.accenture.accentureinterview.fragments.FragmentCreditCard;
+import com.apptest.accenture.accentureinterview.fragments.FragmentExpense;
+import com.apptest.accenture.accentureinterview.fragments.FragmentIncome;
 
 public class LoggedInActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -77,6 +81,21 @@ public class LoggedInActivity extends AppCompatActivity
         switch (itemId) {
             case R.id.nav_category:
                 fragment = new FragmentCategory();
+                break;
+            case R.id.nav_expense:
+                fragment = new FragmentExpense();
+                break;
+            case R.id.nav_category_income:
+                fragment = new FragmentCategoryIncome();
+                break;
+            case R.id.nav_income:
+                fragment = new FragmentIncome();
+                break;
+            case R.id.nav_creditcard:
+                fragment = new FragmentCreditCard();
+                break;
+            case R.id.nav_logout:
+                this.finish();
                 break;
         }
 

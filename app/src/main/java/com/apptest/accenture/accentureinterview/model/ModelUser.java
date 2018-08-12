@@ -10,7 +10,7 @@ public class ModelUser {
     private String password;
     private String email;
     private String telephone;
-    private String lastUpdateData;
+    private String response;
 
     public ModelUser(String user, String password, String email, String telephone){
 
@@ -18,7 +18,28 @@ public class ModelUser {
         this.password = password;
         this.email = email;
         this.telephone = telephone;
+    }
 
+    public ModelUser(String user, String password, String email, String telephone, String creationData, String lastUpdateData, String response){
+
+        this.user = user;
+        this.password = password;
+        this.email = email;
+        this.telephone = telephone;
+        this.response = response;
+    }
+
+    public ModelUser(String user, String password){
+
+        this.user = user;
+        this.password = password;
+    }
+
+    public ModelUser(String user, String password, String response){
+
+        this.user = user;
+        this.password = password;
+        this.response = response;
     }
 
     public String getUser() {
@@ -37,10 +58,6 @@ public class ModelUser {
         return telephone;
     }
 
-    public String getLastUpdateData() {
-        return lastUpdateData;
-    }
-
     public void setUser(String user) {
         this.user = user;
     }
@@ -57,7 +74,11 @@ public class ModelUser {
         this.telephone = telephone;
     }
 
-    public void setLastUpdateData(String lastUpdateData) {
-        this.lastUpdateData = lastUpdateData;
+    public String getResponse() {
+        return response;
+    }
+
+    public void setResponse(String response) {
+        this.response = response;
     }
 }

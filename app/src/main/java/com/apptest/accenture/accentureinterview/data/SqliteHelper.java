@@ -7,6 +7,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.apptest.accenture.accentureinterview.data.table.CategoryTable;
+import com.apptest.accenture.accentureinterview.data.table.ExpenseTable;
+import com.apptest.accenture.accentureinterview.data.table.IncomeTable;
 import com.apptest.accenture.accentureinterview.data.table.LoginTable;
 import com.apptest.accenture.accentureinterview.data.table.UserTable;
 
@@ -29,6 +31,8 @@ public class SqliteHelper extends SQLiteOpenHelper{
         db.execSQL(LoginTable.DB_LOGIN);
         db.execSQL(UserTable.DB_USER);
         db.execSQL(CategoryTable.DB_CATEGORY);
+        db.execSQL(ExpenseTable.DB_EXPENSE);
+        db.execSQL(IncomeTable.DB_INCOME);
     }
 
     @Override
@@ -36,6 +40,8 @@ public class SqliteHelper extends SQLiteOpenHelper{
         db.execSQL("DROP TABLE IF EXISTS " + LoginTable.TABLE_LOGIN);
         db.execSQL("DROP TABLE IF EXISTS " + UserTable.TABLE_USER);
         db.execSQL("DROP TABLE IF EXISTS " + CategoryTable.TABLE_CATEGORY);
+        db.execSQL("DROP TABLE IF EXISTS " + ExpenseTable.TABLE_EXPENSE);
+        db.execSQL("DROP TABLE IF EXISTS " + IncomeTable.TABLE_INCOME);
         onCreate(db);
     }
 
@@ -58,10 +64,9 @@ public class SqliteHelper extends SQLiteOpenHelper{
                 new String[]{whereClause});
     }
 
-    public boolean deleteData(String table, String whereClause){
+    public boolean deleteData(String table, String whereClause, String[] whereArgs){
         SQLiteDatabase db = this.getWritableDatabase();
-        return  db.delete(table, whereClause,
-                new String[]{whereClause}) > 0;
+        return  db.delete(table, whereClause, whereArgs) > 0;
     }
 
 }

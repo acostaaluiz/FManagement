@@ -19,17 +19,18 @@ public interface User {
         void telefoneEmptyError();
         void userAlreadyExist();
         void successfullyUserCreated();
-        void errorUserCreated();
         void emailInvalidFormat();
         void telephoneInvalidFormat();
         void thereIsNoInternetConnection();
-        void setTxtTelephone(String newTelephone);
         void setTxtTelephoneMask(TextWatcher textWatcher);
+        void connectionServerError(String error);
+        void initLoadProgressBar();
+        void finishLoadProgressBar();
     }
 
     interface Presenter{
         void isValidUser(ModelUser modelUser);
-        void createUser(ModelUser modelUser);
+        void creationUserProcess(ModelUser modelUser);
         void maskTelephoneNumber(EditText txtTelephone);
     }
 }

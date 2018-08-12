@@ -1,50 +1,50 @@
 [
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\f695b04d4ec51e245c21dd3aa4528a4d2038b61e\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\25a5dc2d0108204cde4d736baff6a882235169e9\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\25a5dc2d0108204cde4d736baff6a882235169e9\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\f695b04d4ec51e245c21dd3aa4528a4d2038b61e\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\anim\\abc_slide_in_bottom.xml"
     }
 ]

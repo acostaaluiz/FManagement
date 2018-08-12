@@ -7,11 +7,17 @@ package com.apptest.accenture.accentureinterview.model;
 public class ModelCategory {
 
     private String category;
-    private String categoryInputDate;
+    private String response;
 
-    public ModelCategory(String category, String categoryInputDate){
+    public ModelCategory(String category){
         this.category = category;
-        this.categoryInputDate = categoryInputDate;
+    }
+
+    public ModelCategory(String category, String response){
+
+        this.category = category;
+        this.response = response;
+
     }
 
     public String getCategory() {
@@ -22,11 +28,11 @@ public class ModelCategory {
         this.category = category;
     }
 
-    public String getCategoryInputDate() {
-        return categoryInputDate;
+    public String getResponse(){
+        return this.response;
     }
 
-    public void setCategoryInputDate(String categoryInputDate) {
-        this.categoryInputDate = categoryInputDate;
+    public void setResponse(String response){
+        this.response = response;
     }
 }

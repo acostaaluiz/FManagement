@@ -15,11 +15,15 @@ public interface Category {
         void expenseCategoryEmptyError();
         void expenseCategoryAlreadyExists();
         void successfullyRegister(ArrayList<ModelCategory> modelCategoryList);
-        void errorRegister();
+        void connectionServerError(String error);
+        void thereIsNoInternetConnection();
+        void initLoadProgressBar();
+        void finishLoadProgressBar();
     }
 
     interface Presenter{
-        void saveExpenseCategory(ModelCategory modelCategory);
+        void creationExpenseCategoryProcess(ModelCategory modelCategory);
+        void deleteExpenseCategory(ModelCategory modelCategory);
         void loadAllExpenseCategory();
     }
 }

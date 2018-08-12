@@ -4,14 +4,10 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.graphics.ColorSpace;
-import android.util.Log;
 
 import com.apptest.accenture.accentureinterview.data.SqliteHelper;
 import com.apptest.accenture.accentureinterview.data.table.CategoryTable;
-import com.apptest.accenture.accentureinterview.data.table.UserTable;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
-import com.apptest.accenture.accentureinterview.model.ModelLogin;
 
 import java.util.ArrayList;
 
@@ -33,9 +29,17 @@ public class CategoryController extends SqliteHelper {
         ContentValues values = new ContentValues();
 
         values.put(CategoryTable.COL_CATEGORY, modelCategory.getCategory());
-        values.put(CategoryTable.COL_CATEGORY_INPUT_DATE, modelCategory.getCategoryInputDate());
+        //values.put(CategoryTable.COL_CATEGORY_INPUT_DATE, modelCategory.getCategoryInputDate());
 
         return sqliteHelper.insertData(CategoryTable.TABLE_CATEGORY, values);
+    }
+
+    public boolean deleteCategoryData(ModelCategory modelCategory){
+
+        String[] args = {modelCategory.getCategory()};
+
+        return sqliteHelper.deleteData(CategoryTable.TABLE_CATEGORY,
+                CategoryTable.COL_CATEGORY + " = ?", args);
     }
 
     public boolean checkCategory(ModelCategory modelCategory){

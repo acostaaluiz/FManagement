@@ -69,6 +69,37 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txtViewPrice" />
 
+            <CheckBox
+                android:id="@+id/checkBoxHasCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="11dp"
+                android:text="@string/expense_has_creditcard"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewPriceValue" />
+
+            <TextView
+                android:id="@+id/txtViewCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/creditcard"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBoxHasCreditCard" />
+
+            <Spinner
+                android:id="@+id/spnCreditCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtViewCreditCard" />
+
             <TextView
                 android:id="@+id/txtViewCategory"
                 android:layout_width="wrap_content"
@@ -78,7 +109,7 @@
                 android:layout_marginTop="10dp"
                 android:text="@string/expense_category"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txtViewPriceValue" />
+                app:layout_constraintTop_toBottomOf="@+id/spnCreditCard" />
 
             <Spinner
                 android:id="@+id/spnCategory"

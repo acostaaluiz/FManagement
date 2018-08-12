@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\android projects\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Flavio\\.android\\build-cache\\94742f817e11cdd0de49b93295d2cf2aa981eae3\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\39c7053399a2963380467ed1422afe0388f0df44\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     }
 ]

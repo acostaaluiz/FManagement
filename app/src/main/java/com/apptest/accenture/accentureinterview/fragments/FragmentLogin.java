@@ -1,10 +1,9 @@
 package com.apptest.accenture.accentureinterview.fragments;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,23 +12,27 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 
 import com.apptest.accenture.accentureinterview.R;
+import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.activities.LoggedInActivity;
-import com.apptest.accenture.accentureinterview.model.ModelLogin;
+import com.apptest.accenture.accentureinterview.model.ModelUser;
 import com.apptest.accenture.accentureinterview.presenter.PresenterLogin;
+import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
 import com.apptest.accenture.accentureinterview.view.Login;
 
 /**
  * Created by fcost on 28/06/2018.
  */
 
-public class FragmentLogin extends android.support.v4.app.Fragment implements Login.View {
+public class FragmentLogin extends Fragment implements Login.View {
 
     private Login.Presenter loginPresenter;
     private EditText txtUserValue;
     private EditText txtPasswordValue;
     private CheckBox checkBoxRememberLogin;
     private Button btnLogin;
-    private ModelLogin modelLogin;
+    private ModelUser modelUser;
+    private ProgressDialog progressDialog;
+
 
     @Nullable
     @Override
@@ -49,16 +52,10 @@ public class FragmentLogin extends android.support.v4.app.Fragment implements Lo
 
                 String user = txtUserValue.getText().toString();
                 String password = txtPasswordValue.getText().toString();
-                boolean rememberPassword = false;
 
-                if(checkBoxRememberLogin.isChecked())
-                    rememberPassword = true;
-                else
-                    rememberPassword = false;
+                modelUser = new ModelUser(user, password);
 
-                modelLogin = new ModelLogin(user, password, rememberPassword);
-
-                loginPresenter.isValidLogin(modelLogin);
+                loginPresenter.isValidLogin(modelUser);
 
             }
         });
@@ -71,55 +68,72 @@ public class FragmentLogin extends android.support.v4.app.Fragment implements Lo
     @Override
     public void userEmptyError() {
 
-        showDialog(getResources().getString(R.string.attention),
+        callErrorMessageActivity(
+                getResources().getString(R.string.attention),
                 getResources().getString(R.string.empty_user));
     }
 
     @Override
     public void passwordEmptyError() {
-        showDialog(getResources().getString(R.string.attention),
+
+        callErrorMessageActivity(
+                getResources().getString(R.string.attention),
                 getResources().getString(R.string.empty_password));
 
     }
 
     @Override
     public void invalidUserLogin() {
-        showDialog(getResources().getString(R.string.attention),
-                getResources().getString(R.string.invalid_user_login));
+
+        callErrorMessageActivity(
+                getResources().getString(R.string.attention),
+                getResources().getString(R.string.user_already_exist));
     }
 
     @Override
     public void invalidPasswordLogin() {
-        showDialog(getResources().getString(R.string.attention),
+
+        callErrorMessageActivity(
+                getResources().getString(R.string.attention),
                 getResources().getString(R.string.invalid_user_password));
+    }
+
+    @Override
+    public void connectionServerError(String error) {
+
+        callErrorMessageActivity(
+                getResources().getString(R.string.error),
+                error);
     }
 
     @Override
     public void successfullyLoggedIn() {
 
-
         Intent myIntent = new Intent(getActivity(), LoggedInActivity.class);
         getActivity().startActivity(myIntent);
-
-
-
-        //showDialog(getResources().getString(R.string.attention),
-          //      getResources().getString(R.string.login_success));
     }
 
-    private void showDialog(String title, String msg) {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle(title);
-        builder.setMessage(msg);
-        builder.setIcon(android.R.drawable.ic_dialog_alert);
-        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.cancel();
-            }
-        });
+    @Override
+    public void initLoadProgressBar() {
 
-        AlertDialog alert = builder.create();
-        alert.show();
+        progressDialog = new ProgressDialog();
+        progressDialog.show(getActivity().getSupportFragmentManager(),
+                getResources().getString(R.string.loading));
+    }
+
+    @Override
+    public void finishLoadProgressBar() {
+
+        progressDialog.dismiss();
+    }
+
+    public void callErrorMessageActivity(String errorType, String errorMessage) {
+
+        Intent myIntent = new Intent(getActivity(), ErrorMessageActivity.class);
+
+        myIntent.putExtra("errorType", errorType);
+        myIntent.putExtra("errorMessage", errorMessage);
+
+        startActivity(myIntent);
     }
 }

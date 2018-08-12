@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.apptest.accenture.accentureinterview.data.DBEntity;
 import com.apptest.accenture.accentureinterview.data.SqliteHelper;
 import com.apptest.accenture.accentureinterview.data.table.LoginTable;
 import com.apptest.accenture.accentureinterview.data.table.UserTable;
@@ -16,16 +15,16 @@ import com.apptest.accenture.accentureinterview.model.ModelLogin;
  * Created by fcost on 28/06/2018.
  */
 
-public class LoginController extends DBEntity{
+public class LoginController extends SqliteHelper{
 
     private static final String TAG = "";
-    DBEntity sqliteHelper;
+    SqliteHelper sqliteHelper;
 
 
     public LoginController(Context context) {
         super(context);
 
-        sqliteHelper = new DBEntity(context);
+        sqliteHelper = new SqliteHelper(context);
     }
 
     public boolean saveLoginData(ModelLogin modelLogin){

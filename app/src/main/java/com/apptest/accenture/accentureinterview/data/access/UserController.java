@@ -46,7 +46,7 @@ public class UserController extends SqliteHelper {
         values.put(UserTable.COL_PASSWORD, modelUser.getPassword());
         values.put(UserTable.COL_EMAIL, modelUser.getEmail());
         values.put(UserTable.COL_TELEPHONE, modelUser.getTelephone());
-        values.put(UserTable.COL_LAST_UPDATE_DATA, modelUser.getLastUpdateData());
+        //values.put(UserTable.COL_LAST_UPDATE_DATA, modelUser.getLastUpdateData());
 
         return sqliteHelper.updateData(UserTable.TABLE_USER, values, whereClause);
     }
