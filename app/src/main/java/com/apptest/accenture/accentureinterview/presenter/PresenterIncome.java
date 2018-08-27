@@ -111,9 +111,9 @@ public class PresenterIncome implements Income.Presenter {
 
             try {
 
-                frequencies = frequencyRestAPI.loadAllFrequencies().execute().body();
-                incomeCategories = categoryIncomeRestAPI.getAllIncomeCategories().execute().body();
-                incomes = incomeRestAPI.getAllIncomes().execute().body();
+                frequencies = frequencyRestAPI.loadAllFrequencies(fragmenteIncome.getMyApplication().getJwtToken()).execute().body();
+                incomeCategories = categoryIncomeRestAPI.getAllIncomeCategories(fragmenteIncome.getMyApplication().getJwtToken()).execute().body();
+                incomes = incomeRestAPI.getAllIncomes(fragmenteIncome.getMyApplication().getJwtToken()).execute().body();
 
             } catch (IOException e) {
                 return e.toString();
@@ -171,7 +171,7 @@ public class PresenterIncome implements Income.Presenter {
                     myDateHelper = new DateHelper(myModelIncome.getIncomeToDate());
                     myModelIncome.setIncomeToDate(myDateHelper.getDate());
 
-                    myModelIncome = incomeRestAPI.saveIncome(myModelIncome).execute().body();
+                    myModelIncome = incomeRestAPI.saveIncome(myModelIncome, fragmenteIncome.getMyApplication().getJwtToken()).execute().body();
                     result = myModelIncome.getResponse();
 
                 }

@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class FrequencyRestAPI implements FrequencyRetrofitAPI{
 
     @Override
-    public Call<ArrayList<ModelFrequency>> loadAllFrequencies() {
+    public Call<ArrayList<ModelFrequency>> loadAllFrequencies(String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -20,7 +20,7 @@ public class FrequencyRestAPI implements FrequencyRetrofitAPI{
 
         FrequencyRetrofitAPI frequencyRetrofitAPI = retrofit.create(FrequencyRetrofitAPI.class);
 
-        Call<ArrayList<ModelFrequency>> requestGetAllFrequencies = frequencyRetrofitAPI.loadAllFrequencies();
+        Call<ArrayList<ModelFrequency>> requestGetAllFrequencies = frequencyRetrofitAPI.loadAllFrequencies(token);
 
         return requestGetAllFrequencies;
     }

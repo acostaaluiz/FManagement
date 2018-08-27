@@ -1,5 +1,6 @@
 package com.apptest.accenture.accentureinterview.view;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelLogin;
 import com.apptest.accenture.accentureinterview.model.ModelUser;
 
@@ -17,6 +18,7 @@ public interface Login {
         void invalidPasswordLogin();
         void successfullyLoggedIn();
         void connectionServerError(String error);
+        MyApplication getMyApplication();
         void initLoadProgressBar();
         void finishLoadProgressBar();
     }

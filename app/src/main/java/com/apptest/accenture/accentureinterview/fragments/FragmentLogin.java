@@ -14,6 +14,7 @@ import android.widget.EditText;
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.activities.LoggedInActivity;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelUser;
 import com.apptest.accenture.accentureinterview.presenter.PresenterLogin;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
@@ -104,6 +105,11 @@ public class FragmentLogin extends Fragment implements Login.View {
         callErrorMessageActivity(
                 getResources().getString(R.string.error),
                 error);
+    }
+
+    @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
     }
 
     @Override

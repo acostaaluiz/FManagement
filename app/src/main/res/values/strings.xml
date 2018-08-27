@@ -51,6 +51,7 @@
     <string name="empty_expense_frequency">O campo Frequência deve possuir algum valor!</string>
     <string name="empty_price">O campo Valor da despesa deve possuir algum valor!</string>
     <string name="expense_already_exists">A despesa já existe!</string>
+    <string name="splited_creditcard">Quantidade de parcelas</string>
 
     <string name="category_income">Categoria da entrada</string>
 

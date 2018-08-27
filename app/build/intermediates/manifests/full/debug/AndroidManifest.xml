@@ -11,11 +11,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
+        android:name="com.apptest.accenture.accentureinterview.app.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -38,6 +35,15 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.MainActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity" />
+        <activity android:name="com.apptest.accenture.accentureinterview.activities.ListExpenseActivity" />
+        <activity android:name="com.apptest.accenture.accentureinterview.activities.ListIncomeActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

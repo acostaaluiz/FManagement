@@ -3,6 +3,7 @@ package com.apptest.accenture.accentureinterview.presenter;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.data.access.LoginController;
 import com.apptest.accenture.accentureinterview.data.api.UserRestAPI;
 import com.apptest.accenture.accentureinterview.model.ModelLogin;
@@ -57,6 +58,11 @@ public class PresenterLogin implements Login.Presenter{
 
                         ModelUser modelUserChecked = response.body();
                         modelUser = modelUserChecked;
+
+                        fragmentLogin.getMyApplication().setJwtToken(modelUser.getToken());
+
+                        MyApplication myApplication = new MyApplication();
+                        myApplication.setJwtToken(modelUser.getToken());
 
                         if (modelUser.getResponse().equals("INVALID_USER"))
                             fragmentLogin.invalidUserLogin();

@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ExpenseRestAPI implements ExpenseRetrofitAPI{
 
     @Override
-    public Call<ModelExpense> checkExpense(String expense) {
+    public Call<ModelExpense> checkExpense(String expense, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -20,13 +20,13 @@ public class ExpenseRestAPI implements ExpenseRetrofitAPI{
 
         ExpenseRetrofitAPI expenseRetrofitAPI = retrofit.create(ExpenseRetrofitAPI.class);
 
-        Call<ModelExpense> requestCheckExpense = expenseRetrofitAPI.checkExpense(expense);
+        Call<ModelExpense> requestCheckExpense = expenseRetrofitAPI.checkExpense(expense, token);
 
         return requestCheckExpense;
     }
 
     @Override
-    public Call<ArrayList<ModelExpense>> getAllExpenses() {
+    public Call<ArrayList<ModelExpense>> getAllExpenses(String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -35,13 +35,13 @@ public class ExpenseRestAPI implements ExpenseRetrofitAPI{
 
         ExpenseRetrofitAPI expenseRetrofitAPI = retrofit.create(ExpenseRetrofitAPI.class);
 
-        Call<ArrayList<ModelExpense>> requestGetAllExpenses = expenseRetrofitAPI.getAllExpenses();
+        Call<ArrayList<ModelExpense>> requestGetAllExpenses = expenseRetrofitAPI.getAllExpenses(token);
 
         return requestGetAllExpenses;
     }
 
     @Override
-    public Call<ModelExpense> saveExpense(ModelExpense modelExpense) {
+    public Call<ModelExpense> saveExpense(ModelExpense modelExpense, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -50,7 +50,7 @@ public class ExpenseRestAPI implements ExpenseRetrofitAPI{
 
         ExpenseRetrofitAPI expenseRetrofitAPI = retrofit.create(ExpenseRetrofitAPI.class);
 
-        Call<ModelExpense> requestSaveExpense = expenseRetrofitAPI.saveExpense(modelExpense);
+        Call<ModelExpense> requestSaveExpense = expenseRetrofitAPI.saveExpense(modelExpense, token);
 
         return requestSaveExpense;
     }

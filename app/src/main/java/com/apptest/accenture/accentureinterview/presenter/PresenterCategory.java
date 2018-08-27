@@ -1,8 +1,10 @@
 package com.apptest.accenture.accentureinterview.presenter;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.data.access.CategoryController;
 import com.apptest.accenture.accentureinterview.data.api.CategoryRestAPI;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
@@ -69,9 +71,7 @@ public class PresenterCategory implements Category.Presenter{
             myCategories = new ArrayList<>();
 
             try {
-
-                myCategories = categoryRestAPI.getAllCategories().execute().body();
-
+                myCategories = categoryRestAPI.getAllCategories(fragmentCategory.getMyApplication().getJwtToken()).execute().body();
             } catch (IOException e) {
                 return e.toString();
             }
@@ -111,7 +111,11 @@ public class PresenterCategory implements Category.Presenter{
                 else if(!networkConnectionTest.isNetworkAvailable())
                     result = "WITHOUT_CONNECTION";
                 else {
-                        myModelCategory = categoryRestAPI.saveCategory(myModelCategory).execute().body();
+                        myModelCategory = categoryRestAPI.saveCategory(
+                                myModelCategory,
+                                fragmentCategory.getMyApplication().getJwtToken()
+                        ).execute().body();
+
                         result = myModelCategory.getResponse();
                 }
             } catch (IOException e) {

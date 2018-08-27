@@ -11,6 +11,7 @@ public class ModelUser {
     private String email;
     private String telephone;
     private String response;
+    private String token;
 
     public ModelUser(String user, String password, String email, String telephone){
 
@@ -80,5 +81,13 @@ public class ModelUser {
 
     public void setResponse(String response) {
         this.response = response;
+    }
+
+    public String getToken(){
+        return this.token;
+    }
+
+    public void setToken(String token){
+        this.token = token;
     }
 }

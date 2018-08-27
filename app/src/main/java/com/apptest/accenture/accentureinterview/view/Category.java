@@ -1,5 +1,6 @@
 package com.apptest.accenture.accentureinterview.view;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
 
 import java.util.ArrayList;
@@ -17,6 +18,7 @@ public interface Category {
         void successfullyRegister(ArrayList<ModelCategory> modelCategoryList);
         void connectionServerError(String error);
         void thereIsNoInternetConnection();
+        MyApplication getMyApplication();
         void initLoadProgressBar();
         void finishLoadProgressBar();
     }

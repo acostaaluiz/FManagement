@@ -16,6 +16,7 @@ import android.widget.EditText;
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterCreditCard;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 import com.apptest.accenture.accentureinterview.presenter.PresenterCreditCard;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
@@ -123,6 +124,11 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
         callErrorMessageActivity(
                 getResources().getString(R.string.attention),
                 getResources().getString(R.string.creditcard_already_exists));
+    }
+
+    @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
     }
 
     @Override

@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class CreditCardRestAPI implements CreditCardRetrofitAPI {
 
     @Override
-    public Call<ModelCreditCard> checkCreditCard(String creditcard) {
+    public Call<ModelCreditCard> checkCreditCard(String creditcard, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -20,13 +20,13 @@ public class CreditCardRestAPI implements CreditCardRetrofitAPI {
 
         CreditCardRetrofitAPI creditCardRetrofitAPI = retrofit.create(CreditCardRetrofitAPI.class);
 
-        Call<ModelCreditCard> requestCheckCreditCard = creditCardRetrofitAPI.checkCreditCard(creditcard);
+        Call<ModelCreditCard> requestCheckCreditCard = creditCardRetrofitAPI.checkCreditCard(creditcard, token);
 
         return requestCheckCreditCard;
     }
 
     @Override
-    public Call<ArrayList<ModelCreditCard>> getAllCreditCards() {
+    public Call<ArrayList<ModelCreditCard>> getAllCreditCards(String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -35,13 +35,13 @@ public class CreditCardRestAPI implements CreditCardRetrofitAPI {
 
         CreditCardRetrofitAPI creditCardRetrofitAPI = retrofit.create(CreditCardRetrofitAPI.class);
 
-        Call<ArrayList<ModelCreditCard>> requestGetAllCreditCards = creditCardRetrofitAPI.getAllCreditCards();
+        Call<ArrayList<ModelCreditCard>> requestGetAllCreditCards = creditCardRetrofitAPI.getAllCreditCards(token);
 
         return requestGetAllCreditCards;
     }
 
     @Override
-    public Call<ModelCreditCard> saveCreditCard(ModelCreditCard modelCreditCard) {
+    public Call<ModelCreditCard> saveCreditCard(ModelCreditCard modelCreditCard, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -50,7 +50,7 @@ public class CreditCardRestAPI implements CreditCardRetrofitAPI {
 
         CreditCardRetrofitAPI creditCardRetrofitAPI = retrofit.create(CreditCardRetrofitAPI.class);
 
-        Call<ModelCreditCard> requestSaveCreditCard = creditCardRetrofitAPI.saveCreditCard(modelCreditCard);
+        Call<ModelCreditCard> requestSaveCreditCard = creditCardRetrofitAPI.saveCreditCard(modelCreditCard, token);
 
         return requestSaveCreditCard;
     }

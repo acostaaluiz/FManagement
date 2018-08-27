@@ -1,13 +1,11 @@
 package com.apptest.accenture.accentureinterview.fragments;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,15 +14,12 @@ import android.widget.EditText;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
-import com.apptest.accenture.accentureinterview.activities.LoggedInActivity;
-import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterCategory;
+import com.apptest.accenture.accentureinterview.adapters.RecyclerCategoryAdapter;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
 import com.apptest.accenture.accentureinterview.presenter.PresenterCategory;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
 import com.apptest.accenture.accentureinterview.view.Category;
-import com.baoyz.swipemenulistview.SwipeMenu;
-import com.baoyz.swipemenulistview.SwipeMenuCreator;
-import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 
 import java.util.ArrayList;
@@ -37,7 +32,7 @@ public class FragmentCategory extends Fragment implements Category.View {
 
     private EditText txtExpenseCategoryValue;
     private Button btnRegister;
-    private SwipeMenuListView listViewCategory;
+    private RecyclerView myRecyclerView;
     private ModelCategory modelCategory;
     private Category.Presenter categoryPresenter;
     private ProgressDialog progressDialog;
@@ -47,7 +42,9 @@ public class FragmentCategory extends Fragment implements Category.View {
 
         View vw = inflater.inflate(R.layout.fragment_expense_category, container, false);
 
-        listViewCategory = vw.findViewById(R.id.listViewCategory);
+        //listViewCategory = vw.findViewById(R.id.listViewCategory);
+
+        myRecyclerView = vw.findViewById(R.id.myRecyclerView);
         txtExpenseCategoryValue = vw.findViewById(R.id.txtExpenseValue);
         btnRegister = vw.findViewById(R.id.btnRegister);
 
@@ -103,9 +100,25 @@ public class FragmentCategory extends Fragment implements Category.View {
     }
 
     @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
+    }
+
+    @Override
     public void successfullyRegister(final ArrayList<ModelCategory> categories) {
 
-        listViewCategory.setAdapter(new ArrayAdapterCategory(getActivity(), R.layout.listview_category, categories));
+        RecyclerView.LayoutManager myLayouyManager = new LinearLayoutManager(getActivity());
+        RecyclerView.Adapter myRecyclerViewAdpter = new RecyclerCategoryAdapter(categories);
+
+        myRecyclerView.setHasFixedSize(true);
+        myRecyclerView.setLayoutManager(myLayouyManager);
+        myRecyclerView.setAdapter(myRecyclerViewAdpter);
+
+
+
+
+
+        /*listViewCategory.setAdapter(new ArrayAdapterCategory(getActivity(), R.layout.listview_category, categories));
         listViewCategory.setTextFilterEnabled(true);
 
         SwipeMenuCreator creator = new SwipeMenuCreator() {
@@ -140,7 +153,7 @@ public class FragmentCategory extends Fragment implements Category.View {
 
                 return false;
             }
-        });
+        });*/
     }
 
     @Override

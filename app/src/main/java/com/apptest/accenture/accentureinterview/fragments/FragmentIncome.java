@@ -20,9 +20,11 @@ import android.widget.Spinner;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
+import com.apptest.accenture.accentureinterview.activities.ListIncomeActivity;
 import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterIncome;
 import com.apptest.accenture.accentureinterview.adapters.CategoryIncomeSpinnerAdapter;
 import com.apptest.accenture.accentureinterview.adapters.FrequencySpinnerAdapter;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategoryIncome;
 import com.apptest.accenture.accentureinterview.model.ModelFrequency;
 import com.apptest.accenture.accentureinterview.model.ModelIncome;
@@ -48,10 +50,10 @@ public class FragmentIncome extends Fragment implements Income.View {
     private EditText txtIncomePriceValue;
     private Spinner spnIncomeFrequency;
     private Spinner spnCategoryIncome;
-    private SwipeMenuListView listViewIncome;
     private Button btnRegister;
     private Button btnDate;
     private Button btnToDate;
+    private Button btnList;
     private ModelIncome modelIncome;
     private ModelCategoryIncome myCategoryIncome;
     private ModelFrequency myModelFrequency;
@@ -63,7 +65,6 @@ public class FragmentIncome extends Fragment implements Income.View {
 
         View vw = inflater.inflate(R.layout.fragment_income, container, false);
 
-        listViewIncome = vw.findViewById(R.id.listViewIncome);
         txtIncomeValue = vw.findViewById(R.id.txtIncomeValue);
         txtIncomeDateValue = vw.findViewById(R.id.txtIncomeDateValue);
         txtIncomeToDateValue = vw.findViewById(R.id.txtIncomeToDateValue);
@@ -72,7 +73,8 @@ public class FragmentIncome extends Fragment implements Income.View {
         spnCategoryIncome = vw.findViewById(R.id.spnCategoryIncome);
         btnRegister = vw.findViewById(R.id.btnRegister);
         btnDate = vw.findViewById(R.id.btnIncomeDate);
-        btnToDate = vw.findViewById(R.id.btnToIncomeDate);
+        btnToDate = vw.findViewById(R.id.btnIncomeToDate);
+        btnList = vw.findViewById(R.id.btnList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +106,14 @@ public class FragmentIncome extends Fragment implements Income.View {
             @Override
             public void onClick(View view) {
                 incomePresenter.initDatePickerDialog("INCOME_TODATE");
+            }
+        });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(getActivity(), ListIncomeActivity.class);
+                startActivity(myIntent);
             }
         });
 
@@ -234,52 +244,12 @@ public class FragmentIncome extends Fragment implements Income.View {
 
     @Override
     public void successfullyRegister(final ArrayList<ModelIncome> incomes) {
-        listViewIncome.setAdapter(new ArrayAdapterIncome(getActivity(), R.layout.listview_income, incomes));
-        listViewIncome.setTextFilterEnabled(true);
 
-        SwipeMenuCreator creator = new SwipeMenuCreator() {
+    }
 
-            @Override
-            public void create(SwipeMenu menu) {
-                // create "delete" item
-                SwipeMenuItem deleteItem = new SwipeMenuItem(
-                        getActivity());
-                // set item background
-                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xEB,
-                        0xEC, 0xF2)));
-                // set item width
-                deleteItem.setWidth(90);
-                // set a icon
-                deleteItem.setIcon(R.drawable.ic_delete);
-                // add to menu
-                menu.addMenuItem(deleteItem);
-            }
-        };
-
-        listViewIncome.setMenuCreator(creator);
-
-        listViewIncome.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
-                switch (index) {
-                    case 0:
-                        incomePresenter.deleteIncomeData(incomes.get(index));
-                        break;
-                }
-
-                return false;
-            }
-        });
-
-        listViewIncome.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-
-                view.getParent().requestDisallowInterceptTouchEvent(true);
-                return false;
-            }
-        });
-
+    @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
     }
 
     @Override

@@ -23,10 +23,12 @@ import android.widget.Spinner;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
+import com.apptest.accenture.accentureinterview.activities.ListExpenseActivity;
 import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterExpense;
 import com.apptest.accenture.accentureinterview.adapters.CategorySpinnerAdapter;
 import com.apptest.accenture.accentureinterview.adapters.CreditCardSpinnerAdapter;
 import com.apptest.accenture.accentureinterview.adapters.FrequencySpinnerAdapter;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
 import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 import com.apptest.accenture.accentureinterview.model.ModelExpense;
@@ -57,6 +59,7 @@ public class FragmentExpense extends Fragment implements Expense.View {
     private SwipeMenuListView listViewExpense;
     private Button btnRegister;
     private Button btnExpenseDate;
+    private Button btnList;
     private ModelExpense modelExpense;
     private ModelCreditCard myModelCreditCard;
     private ModelFrequency myModelFrequency;
@@ -71,7 +74,6 @@ public class FragmentExpense extends Fragment implements Expense.View {
 
         View vw = inflater.inflate(R.layout.fragment_expense, container, false);
 
-        listViewExpense = vw.findViewById(R.id.listViewExpense);
         txtExpenseValue = vw.findViewById(R.id.txtExpenseValue);
         txtExpenseDateValue = vw.findViewById(R.id.txtExpenseDateValue);
         txtPriceValue = vw.findViewById(R.id.txtViewPriceValue);
@@ -82,6 +84,7 @@ public class FragmentExpense extends Fragment implements Expense.View {
         spnFrequency = vw.findViewById(R.id.spnFrequency);
         btnRegister = vw.findViewById(R.id.btnRegister);
         btnExpenseDate = vw.findViewById(R.id.btnExpenseDate);
+        btnList = vw.findViewById(R.id.btnList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -110,6 +113,15 @@ public class FragmentExpense extends Fragment implements Expense.View {
 
                 expensePresenter.initDatePickerDialog();
 
+            }
+        });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent myIntent = new Intent(getActivity(), ListExpenseActivity.class);
+                startActivity(myIntent);
             }
         });
 
@@ -233,14 +245,6 @@ public class FragmentExpense extends Fragment implements Expense.View {
     }
 
     @Override
-    public void errorRegister() {
-
-        callErrorMessageActivity(
-                getResources().getString(R.string.error),
-                getResources().getString(R.string.error_sqlite_insert));
-    }
-
-    @Override
     public void connectionServerError(String error) {
 
         callErrorMessageActivity(
@@ -252,56 +256,6 @@ public class FragmentExpense extends Fragment implements Expense.View {
     public Activity getContext() {
         return getContext();
 
-    }
-
-    @Override
-    public void loadExpenses(final ArrayList<ModelExpense> expenses) {
-
-        listViewExpense.setAdapter(new ArrayAdapterExpense(getActivity(), R.layout.listview_expense, expenses));
-        listViewExpense.setTextFilterEnabled(true);
-
-        SwipeMenuCreator creator = new SwipeMenuCreator() {
-
-            @Override
-            public void create(SwipeMenu menu) {
-                // create "delete" item
-                SwipeMenuItem deleteItem = new SwipeMenuItem(
-                        getActivity());
-                // set item background
-                deleteItem.setBackground(new ColorDrawable(Color.rgb(0xEB,
-                        0xEC, 0xF2)));
-                // set item width
-                deleteItem.setWidth(90);
-                // set a icon
-                deleteItem.setIcon(R.drawable.ic_delete);
-                // add to menu
-                menu.addMenuItem(deleteItem);
-            }
-        };
-
-        listViewExpense.setMenuCreator(creator);
-
-        listViewExpense.setOnMenuItemClickListener(new SwipeMenuListView.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(int position, SwipeMenu menu, int index) {
-                switch (index) {
-                    case 0:
-                        expensePresenter.deleteExpense(expenses.get(index));
-                        break;
-                }
-
-                return false;
-            }
-        });
-
-        listViewExpense.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View view, MotionEvent motionEvent) {
-
-                view.getParent().requestDisallowInterceptTouchEvent(true);
-                return false;
-            }
-        });
     }
 
     @Override
@@ -355,6 +309,11 @@ public class FragmentExpense extends Fragment implements Expense.View {
 
         if(progressDialog != null)
             progressDialog.dismiss();
+    }
+
+    @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
     }
 
     @Override

@@ -2,6 +2,7 @@ package com.apptest.accenture.accentureinterview.view;
 
 import android.app.Activity;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategory;
 import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 import com.apptest.accenture.accentureinterview.model.ModelExpense;
@@ -23,13 +24,12 @@ public interface Expense {
         void categoryEmptyError();
         void priceEmptyError();
         void expenseAlreadyExists();
-        void loadExpenses(ArrayList<ModelExpense> expeses);
         void loadCreditCardSpinner(ArrayList<ModelCreditCard> creditCards);
         void loadCategorySpinner(ArrayList<ModelCategory> categories);
         void loadFrequencySpinner(ArrayList<ModelFrequency> frequencies);
         void initLoadProgressBar();
         void finishLoadProgressBar();
-        void errorRegister();
+        MyApplication getMyApplication();
         void connectionServerError(String error);
         void setTxtExpenseDate(String date);
         void showDatePickerDialog(int year, int month, int day);

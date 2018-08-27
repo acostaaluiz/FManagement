@@ -1,5 +1,6 @@
 package com.apptest.accenture.accentureinterview.view;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategoryIncome;
 
 import java.util.ArrayList;
@@ -15,6 +16,7 @@ public interface CategoryIncome {
         void thereIsNoInternetConnection();
         void initLoadProgressBar();
         void finishLoadProgressBar();
+        MyApplication getMyApplication();
     }
 
     interface Presenter{

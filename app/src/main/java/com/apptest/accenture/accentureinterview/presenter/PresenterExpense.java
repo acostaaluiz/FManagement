@@ -31,7 +31,6 @@ public class PresenterExpense implements Expense.Presenter {
     private CategoryRestAPI categoryRestAPI;
     private ExpenseRestAPI expenseRestAPI;
     private CreditCardRestAPI creditCardRestAPI;
-    private ArrayList<ModelExpense> myExpenses;
     private ArrayList<ModelCreditCard> myCreditCards;
     private ArrayList<ModelCategory> myCategories;
     private ArrayList<ModelFrequency> myFrequencies;
@@ -108,10 +107,9 @@ public class PresenterExpense implements Expense.Presenter {
 
             try {
 
-                myCreditCards = creditCardRestAPI.getAllCreditCards().execute().body();
-                myFrequencies = frequencyRestAPI.loadAllFrequencies().execute().body();
-                myCategories = categoryRestAPI.getAllCategories().execute().body();
-                myExpenses = expenseRestAPI.getAllExpenses().execute().body();
+                myCreditCards = creditCardRestAPI.getAllCreditCards(fragmentExpense.getMyApplication().getJwtToken()).execute().body();
+                myFrequencies = frequencyRestAPI.loadAllFrequencies(fragmentExpense.getMyApplication().getJwtToken()).execute().body();
+                myCategories = categoryRestAPI.getAllCategories(fragmentExpense.getMyApplication().getJwtToken()).execute().body();
 
             } catch (IOException e) {
 
@@ -131,7 +129,6 @@ public class PresenterExpense implements Expense.Presenter {
                 fragmentExpense.loadCreditCardSpinner(myCreditCards);
                 fragmentExpense.loadFrequencySpinner(myFrequencies);
                 fragmentExpense.loadCategorySpinner(myCategories);
-                fragmentExpense.loadExpenses(myExpenses);
             }
 
             fragmentExpense.finishLoadProgressBar();
@@ -169,7 +166,7 @@ public class PresenterExpense implements Expense.Presenter {
                     DateHelper myDateHelper = new DateHelper(myModelExpense.getExpenseDate());
 
                     myModelExpense.setExpenseDate(myDateHelper.getDate());
-                    myModelExpense = expenseRestAPI.saveExpense(myModelExpense).execute().body();
+                    myModelExpense = expenseRestAPI.saveExpense(myModelExpense, fragmentExpense.getMyApplication().getJwtToken()).execute().body();
 
                     result = myModelExpense.getResponse();
                 }

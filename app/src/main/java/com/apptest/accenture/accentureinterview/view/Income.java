@@ -1,5 +1,6 @@
 package com.apptest.accenture.accentureinterview.view;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategoryIncome;
 import com.apptest.accenture.accentureinterview.model.ModelFrequency;
 import com.apptest.accenture.accentureinterview.model.ModelIncome;
@@ -24,6 +25,7 @@ public interface Income {
         void loadIncomeFrequency(ArrayList<ModelFrequency> frequencies);
         void loadIncomeCategories(ArrayList<ModelCategoryIncome> incomeCategories);
         void successfullyRegister(ArrayList<ModelIncome> incomes);
+        MyApplication getMyApplication();
         void connectionServerError(String error);
         void initLoadProgressBar();
         void finishLoadProgressBar();

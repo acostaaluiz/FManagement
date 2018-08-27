@@ -6,6 +6,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +17,8 @@ import android.widget.EditText;
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterCategoryIncome;
+import com.apptest.accenture.accentureinterview.adapters.RecyclerCategoryIncomeAdapter;
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCategoryIncome;
 import com.apptest.accenture.accentureinterview.presenter.PresenterCategoryIncome;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
@@ -31,6 +35,7 @@ public class FragmentCategoryIncome extends Fragment implements CategoryIncome.V
     private EditText txtIncomeCategoryValue;
     private Button btnRegister;
     private SwipeMenuListView listViewCategoryIncome;
+    private RecyclerView myRecyclerView;
     private ModelCategoryIncome modelCategoryIncome;
     private CategoryIncome.Presenter categoryIncomePresenter;
     private ProgressDialog progressDialog;
@@ -40,7 +45,8 @@ public class FragmentCategoryIncome extends Fragment implements CategoryIncome.V
 
         View vw = inflater.inflate(R.layout.fragment_income_category, container, false);
 
-        listViewCategoryIncome = vw.findViewById(R.id.listViewCategoryIncome);
+        myRecyclerView = vw.findViewById(R.id.myRecyclerView);
+        //listViewCategoryIncome = vw.findViewById(R.id.listViewCategoryIncome);
         txtIncomeCategoryValue = vw.findViewById(R.id.txtIncomeCategoryValue);
         btnRegister = vw.findViewById(R.id.btnRegister);
 
@@ -98,7 +104,15 @@ public class FragmentCategoryIncome extends Fragment implements CategoryIncome.V
     @Override
     public void successfullyRegister(final ArrayList<ModelCategoryIncome> modelCategoryIncomeList) {
 
-        listViewCategoryIncome.setAdapter(
+
+        RecyclerView.LayoutManager myLayouyManager = new LinearLayoutManager(getActivity());
+        RecyclerView.Adapter myRecyclerViewAdpter = new RecyclerCategoryIncomeAdapter(modelCategoryIncomeList);
+
+        myRecyclerView.setHasFixedSize(true);
+        myRecyclerView.setLayoutManager(myLayouyManager);
+        myRecyclerView.setAdapter(myRecyclerViewAdpter);
+
+        /*listViewCategoryIncome.setAdapter(
                 new ArrayAdapterCategoryIncome(getActivity(),
                 R.layout.list_view_category_income, modelCategoryIncomeList)
         );
@@ -137,7 +151,7 @@ public class FragmentCategoryIncome extends Fragment implements CategoryIncome.V
 
                 return false;
             }
-        });
+        });*/
 
     }
 
@@ -155,6 +169,11 @@ public class FragmentCategoryIncome extends Fragment implements CategoryIncome.V
 
         progressDialog.dismiss();
 
+    }
+
+    @Override
+    public MyApplication getMyApplication() {
+        return (MyApplication) getActivity().getApplication();
     }
 
     public void callErrorMessageActivity(String errorType, String errorMessage) {

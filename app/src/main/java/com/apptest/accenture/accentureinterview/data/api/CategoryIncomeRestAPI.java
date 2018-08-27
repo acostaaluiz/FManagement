@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class CategoryIncomeRestAPI implements CategoryIncomeRetrofitAPI {
 
     @Override
-    public Call<ModelCategoryIncome> checkCategoryIncome(String categoryincome) {
+    public Call<ModelCategoryIncome> checkCategoryIncome(String categoryincome, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -20,13 +20,13 @@ public class CategoryIncomeRestAPI implements CategoryIncomeRetrofitAPI {
 
         CategoryIncomeRetrofitAPI categoryIncomeRetrofitAPI = retrofit.create(CategoryIncomeRetrofitAPI.class);
 
-        Call<ModelCategoryIncome> requestCheckCategoryIncome = categoryIncomeRetrofitAPI.checkCategoryIncome(categoryincome);
+        Call<ModelCategoryIncome> requestCheckCategoryIncome = categoryIncomeRetrofitAPI.checkCategoryIncome(categoryincome, token);
 
         return requestCheckCategoryIncome;
     }
 
     @Override
-    public Call<ArrayList<ModelCategoryIncome>> getAllIncomeCategories() {
+    public Call<ArrayList<ModelCategoryIncome>> getAllIncomeCategories(String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -35,13 +35,13 @@ public class CategoryIncomeRestAPI implements CategoryIncomeRetrofitAPI {
 
         CategoryIncomeRetrofitAPI categoryIncomeRetrofitAPI = retrofit.create(CategoryIncomeRetrofitAPI.class);
 
-        Call<ArrayList<ModelCategoryIncome>> requestGetAllIncomeCategories = categoryIncomeRetrofitAPI.getAllIncomeCategories();
+        Call<ArrayList<ModelCategoryIncome>> requestGetAllIncomeCategories = categoryIncomeRetrofitAPI.getAllIncomeCategories(token);
 
         return requestGetAllIncomeCategories;
     }
 
     @Override
-    public Call<ModelCategoryIncome> saveIncome(ModelCategoryIncome modelCategory) {
+    public Call<ModelCategoryIncome> saveIncome(ModelCategoryIncome modelCategory, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -50,7 +50,7 @@ public class CategoryIncomeRestAPI implements CategoryIncomeRetrofitAPI {
 
         CategoryIncomeRetrofitAPI categoryIncomeRetrofitAPI = retrofit.create(CategoryIncomeRetrofitAPI.class);
 
-        Call<ModelCategoryIncome> requestSaveCategoryIncome = categoryIncomeRetrofitAPI.saveIncome(modelCategory);
+        Call<ModelCategoryIncome> requestSaveCategoryIncome = categoryIncomeRetrofitAPI.saveIncome(modelCategory, token);
 
         return requestSaveCategoryIncome;
     }

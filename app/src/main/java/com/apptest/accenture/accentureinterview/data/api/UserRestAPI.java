@@ -25,7 +25,7 @@ public class UserRestAPI implements UserRetrofitAPI{
     public Call<ModelUser> checkUser(String user, String password) {
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl(UserRetrofitAPI.BASE_SERVICE)
+                .baseUrl(BASE_SERVICE)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

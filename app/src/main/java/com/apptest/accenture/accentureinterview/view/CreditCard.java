@@ -1,5 +1,6 @@
 package com.apptest.accenture.accentureinterview.view;
 
+import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ public interface CreditCard {
         void creditCardLimitEmptyError();
         void creditCardEndDateEmptyError();
         void creditCardAlReadyExists();
+        MyApplication getMyApplication();
         void connectionServerError(String error);
         void successfullyRegister(ArrayList<ModelCreditCard> creditCards);
         void initLoadProgressBar();

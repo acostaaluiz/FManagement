@@ -68,7 +68,10 @@ public class PresenterCategoryIncome implements CategoryIncome.Presenter {
                 else if(!networkConnectionTest.isNetworkAvailable())
                     result = "WITHOUT_CONNECTION";
                 else {
-                        myModelCategoryIncome = categoryIncomeRestAPI.saveIncome(myModelCategoryIncome).execute().body();
+                        myModelCategoryIncome = categoryIncomeRestAPI.saveIncome(
+                                myModelCategoryIncome,
+                                fragmentCategoryIncome.getMyApplication().getJwtToken()
+                        ).execute().body();
                         result = myModelCategoryIncome.getResponse();
                 }
 
@@ -112,7 +115,7 @@ public class PresenterCategoryIncome implements CategoryIncome.Presenter {
         protected String doInBackground(String... strings) {
 
             try {
-                    myIncomeCategories = categoryIncomeRestAPI.getAllIncomeCategories().execute().body();
+                    myIncomeCategories = categoryIncomeRestAPI.getAllIncomeCategories(fragmentCategoryIncome.getMyApplication().getJwtToken()).execute().body();
 
             } catch (IOException e) {
 

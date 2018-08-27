@@ -61,7 +61,7 @@ public class PresenterCreditCard implements CreditCard.Presenter {
 
             try {
 
-                myCreditCards = creditCardRestAPI.getAllCreditCards().execute().body();
+                myCreditCards = creditCardRestAPI.getAllCreditCards(fragmentCreditCard.getMyApplication().getJwtToken()).execute().body();
 
             } catch (IOException e) {
                 return e.toString();
@@ -109,7 +109,11 @@ public class PresenterCreditCard implements CreditCard.Presenter {
                     result = "CREDITCARD_ENDDATE_EMPTY";
                 else {
 
-                    myModelCreditCard = creditCardRestAPI.saveCreditCard(myModelCreditCard).execute().body();
+                    myModelCreditCard = creditCardRestAPI.saveCreditCard(
+                            myModelCreditCard,
+                            fragmentCreditCard.getMyApplication().getJwtToken()
+                    ).execute().body();
+
                     result = myModelCreditCard.getResponse();
                 }
             } catch (IOException e) {

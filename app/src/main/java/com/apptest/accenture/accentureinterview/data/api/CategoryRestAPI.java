@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class CategoryRestAPI implements CategoryRetrofitAPI {
 
     @Override
-    public Call<ModelCategory> checkCategory(String category) {
+    public Call<ModelCategory> checkCategory(String category, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -20,13 +20,13 @@ public class CategoryRestAPI implements CategoryRetrofitAPI {
 
         CategoryRetrofitAPI categoryRetrofitAPI = retrofit.create(CategoryRetrofitAPI.class);
 
-        Call<ModelCategory> requestCheckCategory = categoryRetrofitAPI.checkCategory(category);
+        Call<ModelCategory> requestCheckCategory = categoryRetrofitAPI.checkCategory(category, token);
 
         return requestCheckCategory;
     }
 
     @Override
-    public Call<ArrayList<ModelCategory>> getAllCategories() {
+    public Call<ArrayList<ModelCategory>> getAllCategories(String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -35,13 +35,13 @@ public class CategoryRestAPI implements CategoryRetrofitAPI {
 
         CategoryRetrofitAPI categoryRetrofitAPI = retrofit.create(CategoryRetrofitAPI.class);
 
-        Call<ArrayList<ModelCategory>> requestGetAllCategories = categoryRetrofitAPI.getAllCategories();
+        Call<ArrayList<ModelCategory>> requestGetAllCategories = categoryRetrofitAPI.getAllCategories(token);
 
         return requestGetAllCategories;
     }
 
     @Override
-    public Call<ModelCategory> saveCategory(ModelCategory modelCategory) {
+    public Call<ModelCategory> saveCategory(ModelCategory modelCategory, String token) {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_SERVICE)
@@ -49,7 +49,7 @@ public class CategoryRestAPI implements CategoryRetrofitAPI {
                 .build();
 
         CategoryRetrofitAPI categoryRetrofitAPI = retrofit.create(CategoryRetrofitAPI.class);
-        Call<ModelCategory> requestSaveCategory = categoryRetrofitAPI.saveCategory(modelCategory);
+        Call<ModelCategory> requestSaveCategory = categoryRetrofitAPI.saveCategory(modelCategory, token);
 
         return requestSaveCategory;
     }
