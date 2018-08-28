@@ -1,13 +1,10 @@
 package com.apptest.accenture.accentureinterview.fragments;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -15,15 +12,12 @@ import android.widget.EditText;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
-import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterCreditCard;
+import com.apptest.accenture.accentureinterview.activities.ListCreditCardActivity;
 import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 import com.apptest.accenture.accentureinterview.presenter.PresenterCreditCard;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
 import com.apptest.accenture.accentureinterview.view.CreditCard;
-import com.baoyz.swipemenulistview.SwipeMenu;
-import com.baoyz.swipemenulistview.SwipeMenuCreator;
-import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 
 import java.util.ArrayList;
@@ -36,6 +30,7 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
     private EditText txtCreditCardLimitValue;
     private EditText txtCreditCardEndDateValue;
     private Button btnRegister;
+    private Button btnList;
     private SwipeMenuListView listViewCreditCards;
     private ProgressDialog progressDialog;
     private CreditCard.Presenter creditCardPresenter;
@@ -46,13 +41,14 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
 
         View vw = inflater.inflate(R.layout.fragment_creditcard, container, false);
 
-        listViewCreditCards = vw.findViewById(R.id.listViewCreditCards);
+        //listViewCreditCards = vw.findViewById(R.id.listViewCreditCards);
         txtCreditCardValue = vw.findViewById(R.id.txtCreditCardValue);
         txtBankValue = vw.findViewById(R.id.txtBankValue);
         txtCreditCardFlagValue = vw.findViewById(R.id.txtCreditCardFlagValue);
         txtCreditCardLimitValue = vw.findViewById(R.id.txtCreditCardLimitValue);
         txtCreditCardEndDateValue = vw.findViewById(R.id.txtCreditCardEndDateValue);
         btnRegister = vw.findViewById(R.id.btnRegister);
+        btnList = vw.findViewById(R.id.btnList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,6 +63,16 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
                 myModelCreditCard = new ModelCreditCard(creditCard, bank, creditCardFlag, creditCardLimit, creditCardEndDate);
 
                 creditCardPresenter.creationCreditCardProcess(myModelCreditCard);
+
+            }
+        });
+
+        btnList.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+           Intent myIntent = new Intent(getActivity(), ListCreditCardActivity.class);
+           startActivity(myIntent);
 
             }
         });
@@ -142,7 +148,7 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
     @Override
     public void successfullyRegister(final ArrayList<ModelCreditCard> creditCards) {
 
-        listViewCreditCards.setAdapter(new ArrayAdapterCreditCard(getActivity(), R.layout.listview_creditcard, creditCards));
+        /*listViewCreditCards.setAdapter(new ArrayAdapterCreditCard(getActivity(), R.layout.listview_creditcard, creditCards));
         listViewCreditCards.setTextFilterEnabled(true);
 
         SwipeMenuCreator creator = new SwipeMenuCreator() {
@@ -186,7 +192,7 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
                 view.getParent().requestDisallowInterceptTouchEvent(true);
                 return false;
             }
-        });
+        });*/
     }
 
     @Override

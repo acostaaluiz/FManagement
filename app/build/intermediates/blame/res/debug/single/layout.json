@@ -220,6 +220,10 @@
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\49b576881f8cfd613deaf79cc8611c9df9443f5f\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_creditcard.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\layout\\cardview_creditcard.xml"
+    },
+    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
@@ -326,6 +330,10 @@
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_expense.xml",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\layout\\cardview_expense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_creditcard_activity.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\layout\\list_creditcard_activity.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_bar.xml",

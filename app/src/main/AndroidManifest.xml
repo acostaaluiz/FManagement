@@ -31,6 +31,7 @@
         <activity android:name=".activities.ErrorMessageActivity"></activity>
         <activity android:name=".activities.ListExpenseActivity"></activity>
         <activity android:name=".activities.ListIncomeActivity" />
+        <activity android:name=".activities.ListCreditCardActivity" />
     </application>
 
 </manifest>

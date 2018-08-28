@@ -31,10 +31,9 @@
         android:id="@+id/txtBankValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/txtViewBank"
+        app:layout_constraintStart_toStartOf="@+id/txtCreditCardFlagValue"
         app:layout_constraintTop_toBottomOf="@+id/txtCreditCardValue" />
 
     <TextView
@@ -72,10 +71,9 @@
         android:id="@+id/txtCreditCardLimitValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:text="TextView"
-        app:layout_constraintStart_toEndOf="@+id/txtViewCreditCardLimit"
+        app:layout_constraintStart_toStartOf="@+id/txtCreditCardFlagValue"
         app:layout_constraintTop_toBottomOf="@+id/txtCreditCardFlagValue" />
 
 </android.support.constraint.ConstraintLayout>

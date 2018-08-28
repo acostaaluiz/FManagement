@@ -1,22 +1,22 @@
 package com.apptest.accenture.accentureinterview.view;
 
 import com.apptest.accenture.accentureinterview.app.MyApplication;
-import com.apptest.accenture.accentureinterview.model.ModelExpense;
+import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 
 import java.util.ArrayList;
 
-public interface ListExpense {
+public interface ListCreditCard {
 
     interface View{
 
         MyApplication getMyApplication();
         void initLoadProgressBar();
         void finishLoadProgressBar();
-        void loadExpenses(ArrayList<ModelExpense> expeses);
+        void loadCreditCards(ArrayList<ModelCreditCard> creditCards);
         void connectionServerError(String error);
     }
 
-    interface Presenter{
+    interface Presenter {
         void initInterface();
     }
 }
