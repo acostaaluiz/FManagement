@@ -851,6 +851,15 @@
     <string name="invalid_user">Usuário inválido</string>
     <string name="invalid_user_login">Usuário inválido! Por favor, verifique o seu cadastro.</string>
     <string name="invalid_user_password">Senha inválida! Por favor, verifique o seu cadastro.</string>
+    <string name="item">Item</string>
+    <string name="item_already_exists">O item já existe!</string>
+    <string name="item_empty">O campo Item deve possuir algum valor!</string>
+    <string name="item_name">Nome</string>
+    <string name="item_name_empty">O campo Nome deve possuir algum valor!</string>
+    <string name="item_price">Valor</string>
+    <string name="item_price_empty">O campo Valor deve possuir algum valor!</string>
+    <string name="item_stored_quantity">Qtd. estoque</string>
+    <string name="item_stored_quantity_empty">O campo Qtd. estoque deve possuir algum valor!</string>
     <string name="loading">Carregando...</string>
     <string name="login">Login</string>
     <string name="login_success">Login realizado com sucesso!</string>
@@ -867,7 +876,7 @@
     <string name="remember_password">Lembrar senha</string>
     <string name="search_menu_title">Search</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="splited_creditcard">Quantidade de parcelas</string>
+    <string name="splited_creditcard">Qtd. de parcelas</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="success">Sucesso!</string>
     <string name="telephone">Telefone</string>

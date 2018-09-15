@@ -51,7 +51,7 @@
     <string name="empty_expense_frequency">O campo Frequência deve possuir algum valor!</string>
     <string name="empty_price">O campo Valor da despesa deve possuir algum valor!</string>
     <string name="expense_already_exists">A despesa já existe!</string>
-    <string name="splited_creditcard">Quantidade de parcelas</string>
+    <string name="splited_creditcard">Qtd. de parcelas</string>
 
     <string name="category_income">Categoria da entrada</string>
 
@@ -81,6 +81,17 @@
     <string name="empty_creditcard_limit">O campo Limite deve possuir algum valor!</string>
     <string name="empty_creditcard_enddate">O campo Dia de pagamento deve possuir algum valor!</string>
     <string name="creditcard_already_exists">O Cartão de crédito já existe!</string>
+
+    <string name="item">Item</string>
+
+    <string name="item_name">Nome</string>
+    <string name="item_price">Valor</string>
+    <string name="item_stored_quantity">Qtd. estoque</string>
+    <string name="item_empty">O campo Item deve possuir algum valor!</string>
+    <string name="item_name_empty">O campo Nome deve possuir algum valor!</string>
+    <string name="item_price_empty">O campo Valor deve possuir algum valor!</string>
+    <string name="item_stored_quantity_empty">O campo Qtd. estoque deve possuir algum valor!</string>
+    <string name="item_already_exists">O item já existe!</string>
 
     <string name="success">Sucesso!</string>
     <string name="error">Erro!</string>

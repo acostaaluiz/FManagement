@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -40,7 +41,7 @@
                     android:inputType="textPersonName"
                     android:background="@android:color/transparent"
                     android:hint="@string/income"
-                    android:drawableLeft="@drawable/ic_folder"
+                    android:drawableLeft="@drawable/ic_income"
                     android:drawablePadding="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -78,7 +79,7 @@
                     android:inputType="date"
                     android:background="@android:color/transparent"
                     android:hint="@string/income_date"
-                    android:drawableLeft="@drawable/ic_folder"
+                    android:drawableLeft="@drawable/ic_calendar"
                     android:drawablePadding="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -88,14 +89,13 @@
                     android:id="@+id/btnIncomeDate"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="8dp"
                     android:background="@drawable/btn_date_design"
-                    app:layout_constraintHorizontal_bias="0.509"
-                    app:layout_constraintLeft_toRightOf="@+id/txtIncomeDateValue"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </android.support.constraint.ConstraintLayout>
         </android.support.v7.widget.CardView>
@@ -128,7 +128,7 @@
                     android:inputType="date"
                     android:background="@android:color/transparent"
                     android:hint="@string/income_todate"
-                    android:drawableLeft="@drawable/ic_folder"
+                    android:drawableLeft="@drawable/ic_calendar"
                     android:drawablePadding="8dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
@@ -138,14 +138,13 @@
                     android:id="@+id/btnIncomeToDate"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="8dp"
                     android:layout_marginRight="10dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="8dp"
                     android:background="@drawable/btn_date_design"
-                    app:layout_constraintHorizontal_bias="0.509"
-                    app:layout_constraintLeft_toRightOf="@+id/txtIncomeToDateValue"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </android.support.constraint.ConstraintLayout>
         </android.support.v7.widget.CardView>
@@ -175,6 +174,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/category_income"
+                    android:drawableLeft="@drawable/ic_folder"
+                    android:drawablePadding="8dp"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="parent" />
 
@@ -219,6 +220,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/income_frequency"
+                    android:drawableLeft="@drawable/ic_frequency"
+                    android:drawablePadding="8dp"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="parent" />
 
@@ -238,29 +241,37 @@
             </android.support.constraint.ConstraintLayout>
         </android.support.v7.widget.CardView>
 
-        <Button
-            android:id="@+id/btnList"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_margin="16dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginStart="8dp"
-            android:background="@drawable/btn_list_design"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myCardViewFrequency" />
-
 
         <Button
             android:id="@+id/btnRegister"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_margin="16dp"
-            android:layout_marginBottom="8dp"
+            android:layout_width="250dp"
+            android:layout_height="45dp"
             android:layout_marginEnd="8dp"
-            android:background="@drawable/btn_save_design"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/rounded_button_shape"
+            android:text="salvar"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myCardViewFrequency" />
+
+        <TextView
+            android:id="@+id/txtViewList"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Listar"
+            android:textAlignment="center"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/myCardViewFrequency" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

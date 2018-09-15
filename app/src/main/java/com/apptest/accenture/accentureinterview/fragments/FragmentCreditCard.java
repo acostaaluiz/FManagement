@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
@@ -18,7 +19,6 @@ import com.apptest.accenture.accentureinterview.model.ModelCreditCard;
 import com.apptest.accenture.accentureinterview.presenter.PresenterCreditCard;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
 import com.apptest.accenture.accentureinterview.view.CreditCard;
-import com.baoyz.swipemenulistview.SwipeMenuListView;
 
 import java.util.ArrayList;
 
@@ -30,25 +30,26 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
     private EditText txtCreditCardLimitValue;
     private EditText txtCreditCardEndDateValue;
     private Button btnRegister;
-    private Button btnList;
-    private SwipeMenuListView listViewCreditCards;
+    private TextView txtViewList;
     private ProgressDialog progressDialog;
     private CreditCard.Presenter creditCardPresenter;
     private ModelCreditCard myModelCreditCard;
+
+    public FragmentCreditCard() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
 
         View vw = inflater.inflate(R.layout.fragment_creditcard, container, false);
 
-        //listViewCreditCards = vw.findViewById(R.id.listViewCreditCards);
         txtCreditCardValue = vw.findViewById(R.id.txtCreditCardValue);
         txtBankValue = vw.findViewById(R.id.txtBankValue);
         txtCreditCardFlagValue = vw.findViewById(R.id.txtCreditCardFlagValue);
         txtCreditCardLimitValue = vw.findViewById(R.id.txtCreditCardLimitValue);
         txtCreditCardEndDateValue = vw.findViewById(R.id.txtCreditCardEndDateValue);
         btnRegister = vw.findViewById(R.id.btnRegister);
-        btnList = vw.findViewById(R.id.btnList);
+        txtViewList = vw.findViewById(R.id.txtViewList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,7 +68,7 @@ public class FragmentCreditCard extends Fragment implements CreditCard.View {
             }
         });
 
-        btnList.setOnClickListener(new View.OnClickListener() {
+        txtViewList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

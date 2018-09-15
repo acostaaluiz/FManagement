@@ -38,6 +38,7 @@
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListExpenseActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListIncomeActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListCreditCardActivity" />
+        <activity android:name="com.apptest.accenture.accentureinterview.activities.ListItemActivity" />
 
         <meta-data
             android:name="android.support.VERSION"

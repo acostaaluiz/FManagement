@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:3:5-55
 		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:8:5-35:19
+ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:8:5-36:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\578144aaa3b2f6a056606ba6dbd2f892941e623e\output\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7642886416353e3e406f880bf9e608bb9416c2bc\output\AndroidManifest.xml:22:5-26:19
@@ -98,6 +98,10 @@ activity#com.apptest.accenture.accentureinterview.activities.ListCreditCardActiv
 ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:34:9-71
 	android:name
 		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:34:19-68
+activity#com.apptest.accenture.accentureinterview.activities.ListItemActivity
+ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:35:9-65
+	android:name
+		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:35:19-62
 uses-sdk
 INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\Flavio Luiz\.android\build-cache\cb554eb3e3b635ebb2b485cbc1e212b3f65950cc\output\AndroidManifest.xml:7:5-9:41

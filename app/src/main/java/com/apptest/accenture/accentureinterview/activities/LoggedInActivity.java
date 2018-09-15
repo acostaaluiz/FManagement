@@ -18,6 +18,7 @@ import com.apptest.accenture.accentureinterview.fragments.FragmentCategoryIncome
 import com.apptest.accenture.accentureinterview.fragments.FragmentCreditCard;
 import com.apptest.accenture.accentureinterview.fragments.FragmentExpense;
 import com.apptest.accenture.accentureinterview.fragments.FragmentIncome;
+import com.apptest.accenture.accentureinterview.fragments.FragmentItem;
 
 public class LoggedInActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -93,6 +94,9 @@ public class LoggedInActivity extends AppCompatActivity
                 break;
             case R.id.nav_creditcard:
                 fragment = new FragmentCreditCard();
+                break;
+            case R.id.nav_item:
+                fragment = new FragmentItem();
                 break;
             case R.id.nav_logout:
                 this.finish();

@@ -158,14 +158,15 @@ public class PresenterExpense implements Expense.Presenter {
                     result = "CATEGORY_EMPTY";
                 else if(myModelExpense.getExpenseFrequency().isEmpty())
                     result = "FREQUENCY_EMPTY";
-                else if(myModelExpense.getExpenseDate().isEmpty())
-                    result = "EXPENSE_DATE_EMPTY";
                 else if(myModelExpense.getPrice().isEmpty())
                     result = "PRICE_EMPTY";
                 else {
-                    DateHelper myDateHelper = new DateHelper(myModelExpense.getExpenseDate());
 
-                    myModelExpense.setExpenseDate(myDateHelper.getDate());
+                    if(!myModelExpense.getExpenseDate().isEmpty()) {
+                        DateHelper myDateHelper = new DateHelper(myModelExpense.getExpenseDate());
+                        myModelExpense.setExpenseDate(myDateHelper.getDate());
+                    }
+
                     myModelExpense = expenseRestAPI.saveExpense(myModelExpense, fragmentExpense.getMyApplication().getJwtToken()).execute().body();
 
                     result = myModelExpense.getResponse();
@@ -206,5 +207,9 @@ public class PresenterExpense implements Expense.Presenter {
 
             fragmentExpense.finishLoadProgressBar();
         }
+    }
+
+    public void setFrequencyToMonth(){
+
     }
 }

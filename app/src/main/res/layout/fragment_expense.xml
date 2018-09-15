@@ -40,7 +40,7 @@
                 android:inputType="textPersonName"
                 android:background="@android:color/transparent"
                 android:hint="@string/expense"
-                android:drawableLeft="@drawable/ic_folder"
+                android:drawableLeft="@drawable/ic_expense"
                 android:drawablePadding="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -85,6 +85,8 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/creditcard"
+                android:drawableLeft="@drawable/ic_credit_card"
+                android:drawablePadding="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="parent" />
 
@@ -115,14 +117,14 @@
         app:cardCornerRadius="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myCardViewCreditCard">
+        app:layout_constraintTop_toBottomOf="@+id/myCardViewPrice">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/txtSplitedWithCreditCard"
+                android:id="@+id/txtSplitedWithCreditCardValue"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -130,9 +132,10 @@
                 android:layout_marginTop="8dp"
                 android:ems="10"
                 android:inputType="number"
+                android:enabled="false"
                 android:background="@android:color/transparent"
                 android:hint="@string/splited_creditcard"
-                android:drawableLeft="@drawable/ic_folder"
+                android:drawableLeft="@drawable/ic_creditcard_splited"
                 android:drawablePadding="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -152,7 +155,7 @@
         app:cardCornerRadius="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myCardViewSplitedWithCreditCard">
+        app:layout_constraintTop_toBottomOf="@+id/myCardViewCreditCard">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -169,7 +172,7 @@
                 android:inputType="number"
                 android:background="@android:color/transparent"
                 android:hint="@string/expense_price"
-                android:drawableLeft="@drawable/ic_folder"
+                android:drawableLeft="@drawable/ic_price"
                 android:drawablePadding="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -189,7 +192,7 @@
         app:cardCornerRadius="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myCardViewPrice">
+        app:layout_constraintTop_toBottomOf="@+id/myCardViewSplitedWithCreditCard">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -206,7 +209,7 @@
                 android:inputType="number"
                 android:background="@android:color/transparent"
                 android:hint="@string/expense_date"
-                android:drawableLeft="@drawable/ic_folder"
+                android:drawableLeft="@drawable/ic_calendar"
                 android:drawablePadding="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -219,11 +222,11 @@
                 android:layout_margin="8dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/btn_date_design"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txtViewExpenseDate" />
+                app:layout_constraintTop_toTopOf="parent" />
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
@@ -253,6 +256,8 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/expense_category"
+                android:drawableLeft="@drawable/ic_folder"
+                android:drawablePadding="8dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="parent" />
 
@@ -297,6 +302,8 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:text="@string/expense_frequency"
+                    android:drawableLeft="@drawable/ic_frequency"
+                    android:drawablePadding="8dp"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toBottomOf="parent" />
 
@@ -317,32 +324,34 @@
         </android.support.v7.widget.CardView>
 
     <Button
-        android:id="@+id/btnList"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_margin="16dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/btnRegister"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/btn_list_design"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_button_shape"
+        android:text="salvar"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myCardViewFrequency" />
 
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:layout_margin="16dp"
-        android:layout_marginBottom="8dp"
+    <TextView
+        android:id="@+id/txtViewList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/btn_save_design"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Listar"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/myCardViewFrequency" />
-    
-    
-    
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
     
 </android.support.constraint.ConstraintLayout>
 </ScrollView>

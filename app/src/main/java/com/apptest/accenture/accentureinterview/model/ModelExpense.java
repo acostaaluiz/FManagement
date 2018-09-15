@@ -13,10 +13,11 @@ public class ModelExpense {
     private String expense;
     private String expenseDate;
     private String hasCreditCard;
-    private String creditCard;
+    private ModelCreditCard creditCard;
     private String category;
     private String price;
     private String expenseFrequency;
+    private String splitedWithCreditCard;
     private String response;
 
     public ModelExpense(String expense, String expenseDate, String category, String hasCreditCard, String price, String expenseFrequency){
@@ -93,19 +94,27 @@ public class ModelExpense {
         this.response = response;
     }
 
-    public String getCreditCard() {
-        return creditCard;
-    }
-
-    public void setCreditCard(String creditCard) {
-        this.creditCard = creditCard;
-    }
-
     public String getHasCreditCard() {
         return hasCreditCard;
     }
 
     public void setHasCreditCard(String hasCreditCard) {
         this.hasCreditCard = hasCreditCard;
+    }
+
+    public ModelCreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    public void setCreditCard(ModelCreditCard creditCard) {
+        this.creditCard = creditCard;
+    }
+
+    public String getSplitedWithCreditCard() {
+        return splitedWithCreditCard;
+    }
+
+    public void setSplitedWithCreditCard(String splitedWithCreditCard) {
+        this.splitedWithCreditCard = splitedWithCreditCard;
     }
 }

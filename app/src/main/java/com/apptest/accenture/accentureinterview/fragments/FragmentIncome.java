@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
@@ -53,7 +54,7 @@ public class FragmentIncome extends Fragment implements Income.View {
     private Button btnRegister;
     private Button btnDate;
     private Button btnToDate;
-    private Button btnList;
+    private TextView txtViewList;
     private ModelIncome modelIncome;
     private ModelCategoryIncome myCategoryIncome;
     private ModelFrequency myModelFrequency;
@@ -74,7 +75,7 @@ public class FragmentIncome extends Fragment implements Income.View {
         btnRegister = vw.findViewById(R.id.btnRegister);
         btnDate = vw.findViewById(R.id.btnIncomeDate);
         btnToDate = vw.findViewById(R.id.btnIncomeToDate);
-        btnList = vw.findViewById(R.id.btnList);
+        txtViewList = vw.findViewById(R.id.txtViewList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -109,7 +110,7 @@ public class FragmentIncome extends Fragment implements Income.View {
             }
         });
 
-        btnList.setOnClickListener(new View.OnClickListener() {
+        txtViewList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(getActivity(), ListIncomeActivity.class);

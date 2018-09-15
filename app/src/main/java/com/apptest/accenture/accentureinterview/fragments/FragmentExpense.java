@@ -8,6 +8,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -20,10 +21,12 @@ import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.activities.ListExpenseActivity;
+import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterCreditCard;
 import com.apptest.accenture.accentureinterview.adapters.ArrayAdapterExpense;
 import com.apptest.accenture.accentureinterview.adapters.CategorySpinnerAdapter;
 import com.apptest.accenture.accentureinterview.adapters.CreditCardSpinnerAdapter;
@@ -52,14 +55,15 @@ public class FragmentExpense extends Fragment implements Expense.View {
     private EditText txtExpenseValue;
     private EditText txtExpenseDateValue;
     private EditText txtPriceValue;
+    private EditText txtSplitedWithCreditCardValue;
     private CheckBox checkBoxHasCreditCard;
     private Spinner spnCreditCard;
     private Spinner spnCategory;
     private Spinner spnFrequency;
-    private SwipeMenuListView listViewExpense;
     private Button btnRegister;
     private Button btnExpenseDate;
-    private Button btnList;
+    private TextView txtViewList;
+    private CardView myCardViewExpenseDate;
     private ModelExpense modelExpense;
     private ModelCreditCard myModelCreditCard;
     private ModelFrequency myModelFrequency;
@@ -77,14 +81,16 @@ public class FragmentExpense extends Fragment implements Expense.View {
         txtExpenseValue = vw.findViewById(R.id.txtExpenseValue);
         txtExpenseDateValue = vw.findViewById(R.id.txtExpenseDateValue);
         txtPriceValue = vw.findViewById(R.id.txtViewPriceValue);
+        txtSplitedWithCreditCardValue = vw.findViewById(R.id.txtSplitedWithCreditCardValue);
         checkBoxHasCreditCard = vw.findViewById(R.id.checkBoxHasCreditCard);
         spnCreditCard = vw.findViewById(R.id.spnCreditCard);
         spnCreditCard.setEnabled(false);
         spnCategory = vw.findViewById(R.id.spnCategory);
         spnFrequency = vw.findViewById(R.id.spnFrequency);
+        myCardViewExpenseDate = vw.findViewById(R.id.myCardViewExpenseDate);
         btnRegister = vw.findViewById(R.id.btnRegister);
         btnExpenseDate = vw.findViewById(R.id.btnExpenseDate);
-        btnList = vw.findViewById(R.id.btnList);
+        txtViewList = vw.findViewById(R.id.txtViewList);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,14 +99,16 @@ public class FragmentExpense extends Fragment implements Expense.View {
                 String expense = txtExpenseValue.getText().toString();
                 String expenseDate = txtExpenseDateValue.getText().toString();
                 String price = txtPriceValue.getText().toString();
-                String creditCard = myModelCreditCard.getCreditCard();
                 String category = myModelCategory.getCategory();
                 String frequency = myModelFrequency.getFrequency();
-
-                if(modelExpense.getHasCreditCard().equals("true"))
-                    modelExpense.setCreditCard(creditCard);
+                String splitedWithCreditCard = txtSplitedWithCreditCardValue.getText().toString();
 
                 modelExpense = new ModelExpense(expense, expenseDate, category, modelExpense.getHasCreditCard(), price, frequency);
+
+                if(modelExpense.getHasCreditCard().equals("true")) {
+                    modelExpense.setCreditCard(myModelCreditCard);
+                    modelExpense.setSplitedWithCreditCard(splitedWithCreditCard);
+                }
 
                 expensePresenter.creationExpenseProcess(modelExpense);
 
@@ -116,7 +124,7 @@ public class FragmentExpense extends Fragment implements Expense.View {
             }
         });
 
-        btnList.setOnClickListener(new View.OnClickListener() {
+        txtViewList.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -133,10 +141,18 @@ public class FragmentExpense extends Fragment implements Expense.View {
                   if(isChecked){
                     modelExpense.setHasCreditCard("true");
                     spnCreditCard.setEnabled(true);
+                    txtSplitedWithCreditCardValue.setEnabled(true);
+                    myCardViewExpenseDate.setVisibility(View.GONE);
+                    spnFrequency.setEnabled(false);
+                    setSpinnerByPosition(2);
                   }
                   else {
                       modelExpense.setHasCreditCard("false");
                       spnCreditCard.setEnabled(false);
+                      txtSplitedWithCreditCardValue.setEnabled(false);
+                      myCardViewExpenseDate.setVisibility(View.VISIBLE);
+                      spnFrequency.setEnabled(true);
+                      setSpinnerByPosition(0);
                   }
 
                }
@@ -334,6 +350,10 @@ public class FragmentExpense extends Fragment implements Expense.View {
 
             }
         }, year, month,day).show();
+    }
+
+    public void setSpinnerByPosition(int pos) {
+        spnFrequency.setSelection(pos);
     }
 
     public void callErrorMessageActivity(String errorType, String errorMessage) {

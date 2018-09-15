@@ -3,6 +3,10 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_creditcard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/creditcard" />
+        <item
             android:id="@+id/nav_category"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/expense_category" />
@@ -19,9 +23,10 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/income" />
         <item
-            android:id="@+id/nav_creditcard"
+            android:id="@+id/nav_item"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/creditcard" />
+            android:title="@string/item" />
+
     </group>
 
     <item android:title="Communicate">
