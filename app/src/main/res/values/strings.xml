@@ -108,4 +108,32 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string-array name="credit_card_menu">
+        <item>Cadastrar Cartão</item>
+        <item>Listar Cartões</item>
+    </string-array>
+
+    <string-array name="income_category_menu">
+        <item>Cadastrar Ctga. Entrada</item>
+    </string-array>
+
+    <string-array name="income_menu">
+        <item>Cadastrar Entrada</item>
+        <item>Listar Entradas</item>
+    </string-array>
+
+    <string-array name="expense_category_menu">
+        <item>Cadastrar Ctga. Despesa</item>
+    </string-array>
+
+    <string-array name="expense_menu">
+        <item>Cadastrar Despesa</item>
+        <item>Listar Despesas</item>
+    </string-array>
+
+    <string-array name="item_menu">
+        <item>Cadastrar Item</item>
+        <item>Listar Itens</item>
+    </string-array>
+
 </resources>

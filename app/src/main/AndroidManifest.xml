@@ -25,8 +25,7 @@
         </activity>
         <activity
             android:name=".activities.LoggedInActivity"
-            android:label="@string/title_activity_logged_in"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_logged_in"/>
         <activity android:name=".activities.MainActivity"></activity>
         <activity android:name=".activities.ErrorMessageActivity"></activity>
         <activity android:name=".activities.ListExpenseActivity"></activity>

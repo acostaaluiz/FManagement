@@ -1,154 +1,152 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:3:5-55
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:8:5-36:19
-MERGED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\578144aaa3b2f6a056606ba6dbd2f892941e623e\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7642886416353e3e406f880bf9e608bb9416c2bc\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\58f75ff4593c45aadf0de5874e0fb610b672f8ea\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\03777ca0015d2e30f4dd21a2a7be0580d3df39f8\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\731dbfb1e6fa5c6605292ebb42571d1cc7381ae1\output\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\6407c195a07645a713abcb0ead2057ecbe8943db\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\49b576881f8cfd613deaf79cc8611c9df9443f5f\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\2cba6c352af9811243a6d94c5cf2ee1ecf42c506\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\b4bc17e11aa095036ef8985308f8ab0a758c54c0\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\c95bcccaf0bc723328e7220ad000a7d8f32e4471\output\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7be3febd590fd9e83bd082c671f57f43d06014b4\output\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Flavio Luiz\.android\build-cache\6d0db27c00dc98aa03838e48c45b4d1d425bd816\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Flavio Luiz\.android\build-cache\3e117f3e942def1ac7073687405d37f3f0f1322f\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\8d9f2627a659ae26ffb1042bdbad92d6c8013408\output\AndroidManifest.xml:22:5-26:19
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:8:5-35:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\36fab602e638ce3476f3e9915053e963fb251b33\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2429e9973c778df2e4d746ddfb2bdbe052974c53\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\146e30f235381b2273c425360ad7b279f863d813\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\6d707b67f581cc8ce8e7e707381be8a19bb002f4\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\989926e937e3f05baddc6fca437955eba9736ffb\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\35d2a61bfd7aac18538fb8e5bbe6e4c3994b38c7\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2fbfea42d34459c76fb487008a9d41c99c0049c5\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\7c54e809a3b2221452445e7da5f2839054c3b252\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3d349c4e542f51522382712dfb52847816645084\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\f206364a4a050d3764dcec6598ddfc90a5e6f50c\output\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\flavio.luiz.costa\.android\build-cache\ac9df96a422cfddd38964ccf34d62d166e2b64f4\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\flavio.luiz.costa\.android\build-cache\e91324728afcb536c00092af2cae98ebd28de9b3\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\0cd0821cdee76e479c002cfc3d66a762bc40d484\output\AndroidManifest.xml:22:5-26:19
 	android:label
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:14:9-35
 	android:roundIcon
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:13:9-54
 	android:allowBackup
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:11:9-43
 	android:theme
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:9:9-42
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:9:9-42
 activity#com.apptest.accenture.accentureinterview.activities.SplashActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:16:9-25:20
 	android:label
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:19:13-56
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:17:13-54
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:17:13-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:23:27-74
 activity#com.apptest.accenture.accentureinterview.activities.LoggedInActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:26:9-29:59
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:26:9-28:63
 	android:label
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:28:13-61
-	android:theme
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:29:13-56
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:28:13-61
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:27:13-56
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:27:13-56
 activity#com.apptest.accenture.accentureinterview.activities.MainActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:30:9-70
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:29:9-70
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:30:19-58
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:29:19-58
 activity#com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:31:9-78
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:30:9-78
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:31:19-66
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:30:19-66
 activity#com.apptest.accenture.accentureinterview.activities.ListExpenseActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:32:9-77
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:31:9-77
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:32:19-65
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:31:19-65
 activity#com.apptest.accenture.accentureinterview.activities.ListIncomeActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:33:9-67
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:32:9-67
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:33:19-64
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:32:19-64
 activity#com.apptest.accenture.accentureinterview.activities.ListCreditCardActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:34:9-71
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:34:19-68
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:33:19-68
 activity#com.apptest.accenture.accentureinterview.activities.ListItemActivity
-ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:35:9-65
+ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:34:9-65
 	android:name
-		ADDED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml:35:19-62
+		ADDED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml:34:19-62
 uses-sdk
-INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\Flavio Luiz\.android\build-cache\cb554eb3e3b635ebb2b485cbc1e212b3f65950cc\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\578144aaa3b2f6a056606ba6dbd2f892941e623e\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7642886416353e3e406f880bf9e608bb9416c2bc\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\58f75ff4593c45aadf0de5874e0fb610b672f8ea\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\03777ca0015d2e30f4dd21a2a7be0580d3df39f8\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\731dbfb1e6fa5c6605292ebb42571d1cc7381ae1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\6407c195a07645a713abcb0ead2057ecbe8943db\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\49b576881f8cfd613deaf79cc8611c9df9443f5f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\2cba6c352af9811243a6d94c5cf2ee1ecf42c506\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\b4bc17e11aa095036ef8985308f8ab0a758c54c0\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\c95bcccaf0bc723328e7220ad000a7d8f32e4471\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7be3febd590fd9e83bd082c671f57f43d06014b4\output\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Flavio Luiz\.android\build-cache\6d0db27c00dc98aa03838e48c45b4d1d425bd816\output\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Flavio Luiz\.android\build-cache\3e117f3e942def1ac7073687405d37f3f0f1322f\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\8d9f2627a659ae26ffb1042bdbad92d6c8013408\output\AndroidManifest.xml:20:5-44
+INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.baoyz.swipemenulistview:library:1.3.0] C:\Users\flavio.luiz.costa\.android\build-cache\1382a92cfe0a43c375c1adee8c98b0461facf9da\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\36fab602e638ce3476f3e9915053e963fb251b33\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2429e9973c778df2e4d746ddfb2bdbe052974c53\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\146e30f235381b2273c425360ad7b279f863d813\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\6d707b67f581cc8ce8e7e707381be8a19bb002f4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\989926e937e3f05baddc6fca437955eba9736ffb\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\35d2a61bfd7aac18538fb8e5bbe6e4c3994b38c7\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2fbfea42d34459c76fb487008a9d41c99c0049c5\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\7c54e809a3b2221452445e7da5f2839054c3b252\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3d349c4e542f51522382712dfb52847816645084\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\f206364a4a050d3764dcec6598ddfc90a5e6f50c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\flavio.luiz.costa\.android\build-cache\ac9df96a422cfddd38964ccf34d62d166e2b64f4\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\flavio.luiz.costa\.android\build-cache\e91324728afcb536c00092af2cae98ebd28de9b3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\0cd0821cdee76e479c002cfc3d66a762bc40d484\output\AndroidManifest.xml:20:5-44
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Flavio Luiz\Desktop\AccentureInterview\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidStudioProject\fmanagement_new\FManagement\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\578144aaa3b2f6a056606ba6dbd2f892941e623e\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7642886416353e3e406f880bf9e608bb9416c2bc\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\58f75ff4593c45aadf0de5874e0fb610b672f8ea\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\03777ca0015d2e30f4dd21a2a7be0580d3df39f8\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\731dbfb1e6fa5c6605292ebb42571d1cc7381ae1\output\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\6407c195a07645a713abcb0ead2057ecbe8943db\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\49b576881f8cfd613deaf79cc8611c9df9443f5f\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\2cba6c352af9811243a6d94c5cf2ee1ecf42c506\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\b4bc17e11aa095036ef8985308f8ab0a758c54c0\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\c95bcccaf0bc723328e7220ad000a7d8f32e4471\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\7be3febd590fd9e83bd082c671f57f43d06014b4\output\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\8d9f2627a659ae26ffb1042bdbad92d6c8013408\output\AndroidManifest.xml:23:9-25:38
+ADDED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\36fab602e638ce3476f3e9915053e963fb251b33\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2429e9973c778df2e4d746ddfb2bdbe052974c53\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\146e30f235381b2273c425360ad7b279f863d813\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\6d707b67f581cc8ce8e7e707381be8a19bb002f4\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\989926e937e3f05baddc6fca437955eba9736ffb\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\35d2a61bfd7aac18538fb8e5bbe6e4c3994b38c7\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\2fbfea42d34459c76fb487008a9d41c99c0049c5\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\7c54e809a3b2221452445e7da5f2839054c3b252\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3d349c4e542f51522382712dfb52847816645084\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\f206364a4a050d3764dcec6598ddfc90a5e6f50c\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\0cd0821cdee76e479c002cfc3d66a762bc40d484\output\AndroidManifest.xml:23:9-25:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] C:\Users\Flavio Luiz\.android\build-cache\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\output\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] C:\Users\flavio.luiz.costa\.android\build-cache\3ccbb8884734e6828ffdd0a26080e182cfbc298f\output\AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Flavio Luiz\.android\build-cache\6d0db27c00dc98aa03838e48c45b4d1d425bd816\output\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\flavio.luiz.costa\.android\build-cache\ac9df96a422cfddd38964ccf34d62d166e2b64f4\output\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Flavio Luiz\.android\build-cache\6d0db27c00dc98aa03838e48c45b4d1d425bd816\output\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\flavio.luiz.costa\.android\build-cache\ac9df96a422cfddd38964ccf34d62d166e2b64f4\output\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Flavio Luiz\.android\build-cache\6d0db27c00dc98aa03838e48c45b4d1d425bd816\output\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\flavio.luiz.costa\.android\build-cache\ac9df96a422cfddd38964ccf34d62d166e2b64f4\output\AndroidManifest.xml:26:13-58

@@ -31,8 +31,7 @@
         </activity>
         <activity
             android:name="com.apptest.accenture.accentureinterview.activities.LoggedInActivity"
-            android:label="@string/title_activity_logged_in"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_logged_in" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.MainActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListExpenseActivity" />

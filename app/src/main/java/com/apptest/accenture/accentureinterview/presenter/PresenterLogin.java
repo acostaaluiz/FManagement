@@ -43,9 +43,11 @@ public class PresenterLogin implements Login.Presenter{
             fragmentLogin.passwordEmptyError();
         else {
 
-            fragmentLogin.initLoadProgressBar();
+            //fragmentLogin.initLoadProgressBar();
 
-            Call<ModelUser> checkUser = userRestAPI.checkUser(modelUser.getUser(), modelUser.getPassword());
+            fragmentLogin.successfullyLoggedIn();
+
+            /*Call<ModelUser> checkUser = userRestAPI.checkUser(modelUser.getUser(), modelUser.getPassword());
 
             checkUser.enqueue(new Callback<ModelUser>() {
                 @Override
@@ -73,6 +75,8 @@ public class PresenterLogin implements Login.Presenter{
                         else
                             fragmentLogin.connectionServerError(modelUser.getResponse());
 
+
+
                         fragmentLogin.finishLoadProgressBar();
                     }
                 }
@@ -87,7 +91,7 @@ public class PresenterLogin implements Login.Presenter{
 
                     fragmentLogin.finishLoadProgressBar();
                 }
-            });
+            });*/
 
         }
     }
