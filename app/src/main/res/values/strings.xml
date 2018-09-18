@@ -99,6 +99,8 @@
     <string name="error_connection_server">Ocorreu um erro na conexão com o servidor!</string>
     <string name="error_restapi_response">Erro! Não foi possível continuar!</string>
     <string name="logout">Sair/Logout</string>
+    <string name="ok">OK</string>
+    <string name="save">Salvar</string>
 
     <string name="no_internet_connection">Para realizar essa ação você precisa estar conectado a internet, favor verificar!</string>
     <string name="title_activity_logged_in">Empresa no Bolso</string>

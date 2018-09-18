@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bank.xml",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_money_bag.xml",
