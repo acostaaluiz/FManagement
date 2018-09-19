@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AccentureInterview.iml" filepath="$PROJECT_DIR$/AccentureInterview.iml" />
       <module fileurl="file://$PROJECT_DIR$/FManagement.iml" filepath="$PROJECT_DIR$/FManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

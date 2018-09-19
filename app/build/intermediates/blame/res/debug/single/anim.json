@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\anim\\tooltip_enter.xml"
-    },
-    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\anim\\tooltip_enter.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",

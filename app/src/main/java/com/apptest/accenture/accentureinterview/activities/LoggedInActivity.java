@@ -130,6 +130,8 @@ public class LoggedInActivity extends AppCompatActivity {
                 } else if(selectedItem.equals("Listar Itens")){
                     Intent myIntent = new Intent(LoggedInActivity.this, ListItemActivity.class);
                     startActivity(myIntent);
+                } else if(selectedItem.equals("Logout")){
+                    finish();
                 } else {
                     throw new IllegalArgumentException("Not supported fragment type");
                 }

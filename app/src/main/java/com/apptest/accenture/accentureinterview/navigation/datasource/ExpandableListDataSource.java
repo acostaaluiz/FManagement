@@ -3,6 +3,7 @@ package com.apptest.accenture.accentureinterview.navigation.datasource;
 import android.content.Context;
 import com.apptest.accenture.accentureinterview.R;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -28,6 +29,7 @@ public class ExpandableListDataSource {
         List<String> incomeMenu = Arrays.asList(context.getResources().getStringArray(R.array.income_menu));
         List<String> expenseCategoryMenu = Arrays.asList(context.getResources().getStringArray(R.array.expense_category_menu));
         List<String> expenseMenu = Arrays.asList(context.getResources().getStringArray(R.array.expense_menu));
+        List<String> moreSettingsMenu = Arrays.asList(context.getResources().getStringArray(R.array.more_settings));
 
         expandableListData.put(context.getResources().getString(R.string.item), itemMenu);
         expandableListData.put(context.getResources().getString(R.string.creditcard), creditCardMenu);
@@ -35,6 +37,7 @@ public class ExpandableListDataSource {
         expandableListData.put(context.getResources().getString(R.string.income), incomeMenu);
         expandableListData.put(context.getResources().getString(R.string.expense_category), expenseCategoryMenu);
         expandableListData.put(context.getResources().getString(R.string.expense), expenseMenu);
+        expandableListData.put(context.getResources().getString(R.string.more_settings), moreSettingsMenu);
 
         return expandableListData;
     }

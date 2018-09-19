@@ -107,6 +107,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="more_settings">Mais opções</string>
 
     <string-array name="credit_card_menu">
         <item>Cadastrar Cartão</item>
@@ -135,5 +136,12 @@
         <item>Cadastrar Item</item>
         <item>Listar Itens</item>
     </string-array>
+
+    <string-array name="more_settings">
+        <item>Aprovar Usuário</item>
+        <item>Logout</item>
+    </string-array>
+
+
 
 </resources>

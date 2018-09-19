@@ -4,16 +4,16 @@
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_plus.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_list_design.xml",
         "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\btn_list_design.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.xml",
-        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_plus.xml"
+        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_save_design.xml",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_date_design.xml",
-        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\btn_date_design.xml"
-    },
-    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\investment_line.png",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\investment_line.png"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_date_design.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\btn_date_design.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnsend_pressed.png",
@@ -212,6 +212,10 @@
         "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_list.xml",
+        "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\ic_list.xml"
+    },
+    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
@@ -242,6 +246,10 @@
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_plus.xml",
+        "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\ic_plus.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btnsave_pressed.png",
@@ -344,12 +352,20 @@
         "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\btn_date_design.xml"
     },
     {
+        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.xml",
+        "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_button_shape.xml",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\rounded_button_shape.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_newdesign.xml",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\btn_add_newdesign.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_manager.xml",
+        "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\drawable\\ic_manager.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_date.png",
