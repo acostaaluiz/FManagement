@@ -10,5 +10,17 @@
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logged_in.xml",
         "source": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\src\\main\\res\\menu\\logged_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_logged_in_drawer.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\menu\\activity_logged_in_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\menu\\logged_in.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\menu\\logged_in.xml"
     }
 ]

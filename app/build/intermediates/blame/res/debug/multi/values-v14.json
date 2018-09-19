@@ -1,5 +1,111 @@
 [
     {
+        "outputFile": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 331,
+                    "endColumn": 70,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 70,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 82,
+                    "endOffset": 480
+                },
+                "from": {
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 82,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 890
+                },
+                "from": {
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 895,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1312
+                },
+                "from": {
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 1312
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
         "map": [
             {
