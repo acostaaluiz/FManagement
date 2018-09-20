@@ -25,17 +25,13 @@ public class ExpandableListDataSource {
 
         List<String> itemMenu = Arrays.asList(context.getResources().getStringArray(R.array.item_menu));
         List<String> creditCardMenu = Arrays.asList(context.getResources().getStringArray(R.array.credit_card_menu));
-        List<String> incomeCategoryMenu = Arrays.asList(context.getResources().getStringArray(R.array.income_category_menu));
         List<String> incomeMenu = Arrays.asList(context.getResources().getStringArray(R.array.income_menu));
-        List<String> expenseCategoryMenu = Arrays.asList(context.getResources().getStringArray(R.array.expense_category_menu));
         List<String> expenseMenu = Arrays.asList(context.getResources().getStringArray(R.array.expense_menu));
         List<String> moreSettingsMenu = Arrays.asList(context.getResources().getStringArray(R.array.more_settings));
 
         expandableListData.put(context.getResources().getString(R.string.item), itemMenu);
         expandableListData.put(context.getResources().getString(R.string.creditcard), creditCardMenu);
-        expandableListData.put(context.getResources().getString(R.string.category_income), incomeCategoryMenu);
         expandableListData.put(context.getResources().getString(R.string.income), incomeMenu);
-        expandableListData.put(context.getResources().getString(R.string.expense_category), expenseCategoryMenu);
         expandableListData.put(context.getResources().getString(R.string.expense), expenseMenu);
         expandableListData.put(context.getResources().getString(R.string.more_settings), moreSettingsMenu);
 

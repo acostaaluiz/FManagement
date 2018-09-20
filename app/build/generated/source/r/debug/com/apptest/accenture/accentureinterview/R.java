@@ -31,12 +31,10 @@ public final class R {
     }
     public static final class array {
         public static final int credit_card_menu=0x7f0d0000;
-        public static final int expense_category_menu=0x7f0d0001;
-        public static final int expense_menu=0x7f0d0002;
-        public static final int income_category_menu=0x7f0d0003;
-        public static final int income_menu=0x7f0d0004;
-        public static final int item_menu=0x7f0d0005;
-        public static final int more_settings=0x7f0d0006;
+        public static final int expense_menu=0x7f0d0001;
+        public static final int income_menu=0x7f0d0002;
+        public static final int item_menu=0x7f0d0003;
+        public static final int more_settings=0x7f0d0004;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"

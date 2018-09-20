@@ -16,12 +16,10 @@ int anim tooltip_enter 0x7f05000e
 int anim tooltip_exit 0x7f05000f
 int animator design_appbar_state_list_animator 0x7f060000
 int array credit_card_menu 0x7f0d0000
-int array expense_category_menu 0x7f0d0001
-int array expense_menu 0x7f0d0002
-int array income_category_menu 0x7f0d0003
-int array income_menu 0x7f0d0004
-int array item_menu 0x7f0d0005
-int array more_settings 0x7f0d0006
+int array expense_menu 0x7f0d0001
+int array income_menu 0x7f0d0002
+int array item_menu 0x7f0d0003
+int array more_settings 0x7f0d0004
 int attr actionBarDivider 0x7f01007a
 int attr actionBarItemBackground 0x7f01007b
 int attr actionBarPopupTheme 0x7f010074

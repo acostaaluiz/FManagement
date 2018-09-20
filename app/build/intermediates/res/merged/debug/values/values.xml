@@ -4,17 +4,13 @@
         <item>Cadastrar Cartão</item>
         <item>Listar Cartões</item>
     </string-array>
-    <string-array name="expense_category_menu">
-        <item>Cadastrar Ctga. Despesa</item>
-    </string-array>
     <string-array name="expense_menu">
+        <item>Cadastrar Ctga. Despesa</item>
         <item>Cadastrar Despesa</item>
         <item>Listar Despesas</item>
     </string-array>
-    <string-array name="income_category_menu">
-        <item>Cadastrar Ctga. Entrada</item>
-    </string-array>
     <string-array name="income_menu">
+        <item>Cadastrar Ctga. Entrada</item>
         <item>Cadastrar Entrada</item>
         <item>Listar Entradas</item>
     </string-array>

@@ -264,6 +264,14 @@
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\pointer_change.png"
     },
     {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_list.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_logout.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
         "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\drawable\\tooltip_frame_light.xml"
     },
@@ -474,6 +482,10 @@
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_pressed.png",
         "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\btn_ok_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_manager.xml",
+        "source": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\src\\main\\res\\drawable\\ic_manager.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_newdesign.xml",
