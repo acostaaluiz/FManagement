@@ -2,6 +2,7 @@ package com.apptest.accenture.accentureinterview.view;
 
 import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelItem;
+import com.apptest.accenture.accentureinterview.model.ModelMeterUnit;
 
 import java.util.ArrayList;
 
@@ -16,6 +17,7 @@ public interface Item {
         void itemStoredQuantityEmptyError();
         void itemAlReadyExists();
         void connectionServerError(String error);
+        void loadMeterUnitSpinner(ArrayList<ModelMeterUnit> meterUnits);
         void initLoadProgressBar();
         void finishLoadProgressBar();
         void successfullyRegister(ArrayList<ModelItem> incomes);

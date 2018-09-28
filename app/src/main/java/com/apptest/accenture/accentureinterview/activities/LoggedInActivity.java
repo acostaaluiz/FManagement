@@ -43,7 +43,7 @@ public class LoggedInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logged_in);
 
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        mDrawerLayout = findViewById(R.id.drawer_layout);
         mActivityTitle = getTitle().toString();
 
         mExpandableListView = findViewById(R.id.navList);
@@ -129,6 +129,11 @@ public class LoggedInActivity extends AppCompatActivity {
                     mNavigationManager.showFragmentItem();
                 } else if(selectedItem.equals("Listar Itens")){
                     Intent myIntent = new Intent(LoggedInActivity.this, ListItemActivity.class);
+                    startActivity(myIntent);
+                } else if(selectedItem.equals("Cadastrar Cliente")){
+                    mNavigationManager.showFragmentCustomer();
+                } else if(selectedItem.equals("Listar Clientes")){
+                    Intent myIntent = new Intent(LoggedInActivity.this, ListCustomerActivity.class);
                     startActivity(myIntent);
                 } else if(selectedItem.equals("Logout")){
                     finish();

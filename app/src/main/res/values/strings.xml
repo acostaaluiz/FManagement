@@ -87,11 +87,36 @@
     <string name="item_name">Nome</string>
     <string name="item_price">Valor</string>
     <string name="item_stored_quantity">Qtd. estoque</string>
+    <string name="meterunit">Unidade de medida</string>
     <string name="item_empty">O campo Item deve possuir algum valor!</string>
     <string name="item_name_empty">O campo Nome deve possuir algum valor!</string>
     <string name="item_price_empty">O campo Valor deve possuir algum valor!</string>
     <string name="item_stored_quantity_empty">O campo Qtd. estoque deve possuir algum valor!</string>
     <string name="item_already_exists">O item já existe!</string>
+
+    <string name="customer">Cliente</string>
+    <string name="cep">CEP</string>
+    <string name="address">Endereço</string>
+    <string name="number">Número</string>
+    <string name="neighborhood">Bairro</string>
+    <string name="city">Cidade</string>
+    <string name="state">Estado</string>
+    <string name="telephone1">Telefone Residencial</string>
+    <string name="telephone2">Telefone Celular</string>
+    <string name="notes">Observações</string>
+    <string name="customer_empty">O campo Cliente deve possuir algum valor!</string>
+    <string name="customer_name_empty">O campo Nome Cliente deve possuir algum valor!</string>
+    <string name="cep_empty">O campo CEP deve possuir algum valor!</string>
+    <string name="address_empty">O campo Endereço deve possuir algum valor!</string>
+    <string name="number_empty">O campo Número deve possuir algum valor!</string>
+    <string name="neighborhood_empty">O campo Bairro deve possuir algum valor!</string>
+    <string name="city_empty">O campo Cidade deve possuir algum valor!</string>
+    <string name="state_empty">O campo Estado deve possuir algum valor!</string>
+    <string name="telephone1_empty">O campo Telefone Residencial deve possuir algum valor!</string>
+    <string name="customer_already_exists">O Cliente já existe!</string>
+
+
+    <string name="successfully_register_customer">Cliente cadastrado com sucesso!</string>
 
     <string name="success">Sucesso!</string>
     <string name="error">Erro!</string>
@@ -108,6 +133,11 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="more_settings">Mais opções</string>
+
+    <string-array name="customer_menu">
+        <item>Cadastrar Cliente</item>
+        <item>Listar Clientes</item>
+    </string-array>
 
     <string-array name="credit_card_menu">
         <item>Cadastrar Cartão</item>

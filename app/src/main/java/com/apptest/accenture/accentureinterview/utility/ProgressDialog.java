@@ -1,5 +1,7 @@
 package com.apptest.accenture.accentureinterview.utility;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.DialogFragment;
@@ -22,25 +24,19 @@ public class ProgressDialog extends DialogFragment {
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.progress_bar, container);
-        imageView_1 = (ImageView) view.findViewById(R.id.pd_iv_fruit_1);
-        imageView_2 = (ImageView) view.findViewById(R.id.pd_iv_fruit_2);
-        imageView_3 = (ImageView) view.findViewById(R.id.pd_iv_fruit_3);
-        imageView_4 = (ImageView) view.findViewById(R.id.pd_iv_fruit_4);
-        imageView_5 = (ImageView) view.findViewById(R.id.pd_iv_fruit_5);
-        txtViewLoadMessage = view.findViewById(R.id.txtViewLoadMessage);
-        getDialog().setCancelable(false);
-        getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getDialog().setCanceledOnTouchOutside(false);
+
         return view;
     }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        changeImageSlider();
+
+        getDialog().getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        setStyle(DialogFragment.STYLE_NO_FRAME, android.R.style.Theme);
     }
 
-    private void changeImageSlider() {
+    /*private void changeImageSlider() {
         position++;
         switch (position)
         {
@@ -67,5 +63,5 @@ public class ProgressDialog extends DialogFragment {
                 changeImageSlider();
             }
         }, 500);
-    }
+    }*/
 }

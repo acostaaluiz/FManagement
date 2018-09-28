@@ -17,4 +17,6 @@ public interface NavigationManager {
     void showFragmentExpenseCategory();
 
     void showFragmentExpense();
+
+    void showFragmentCustomer();
 }

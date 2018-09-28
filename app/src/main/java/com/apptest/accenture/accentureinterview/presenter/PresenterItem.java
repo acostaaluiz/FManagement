@@ -4,7 +4,9 @@ import android.content.Context;
 import android.os.AsyncTask;
 
 import com.apptest.accenture.accentureinterview.data.api.ItemRestAPI;
+import com.apptest.accenture.accentureinterview.data.api.MeterUnitRestAPI;
 import com.apptest.accenture.accentureinterview.model.ModelItem;
+import com.apptest.accenture.accentureinterview.model.ModelMeterUnit;
 import com.apptest.accenture.accentureinterview.view.Item;
 
 import java.io.IOException;
@@ -14,13 +16,16 @@ public class PresenterItem implements Item.Presenter {
 
     private Item.View fragmentItem;
     private ItemRestAPI itemRestAPI;
+    private MeterUnitRestAPI meterUnitRestAPI;
     private ArrayList<ModelItem> myItems;
+    private ArrayList<ModelMeterUnit> myMeterUnits;
     private ModelItem myModelItem;
 
     public PresenterItem(Item.View fragmentItem, Context context){
 
         this.fragmentItem = fragmentItem;
         this.itemRestAPI = new ItemRestAPI();
+        this.meterUnitRestAPI = new MeterUnitRestAPI();
     }
 
     @Override
@@ -57,7 +62,7 @@ public class PresenterItem implements Item.Presenter {
 
             try {
 
-                myItems = itemRestAPI.getAllItems(fragmentItem.getMyApplication().getJwtToken()).execute().body();
+                myMeterUnits = meterUnitRestAPI.loadAllMeterUnits(fragmentItem.getMyApplication().getJwtToken()).execute().body();
 
             } catch (IOException e) {
                 return e.toString();
@@ -70,7 +75,7 @@ public class PresenterItem implements Item.Presenter {
         protected void onPostExecute(String result) {
 
             if(result.equals("OK"))
-                fragmentItem.successfullyRegister(myItems);
+                fragmentItem.loadMeterUnitSpinner(myMeterUnits);
             else
                 fragmentItem.connectionServerError(result);
 

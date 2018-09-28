@@ -28,7 +28,9 @@ public class ExpandableListDataSource {
         List<String> incomeMenu = Arrays.asList(context.getResources().getStringArray(R.array.income_menu));
         List<String> expenseMenu = Arrays.asList(context.getResources().getStringArray(R.array.expense_menu));
         List<String> moreSettingsMenu = Arrays.asList(context.getResources().getStringArray(R.array.more_settings));
+        List<String> customerMenu = Arrays.asList(context.getResources().getStringArray(R.array.customer_menu));
 
+        expandableListData.put(context.getResources().getString(R.string.customer), customerMenu);
         expandableListData.put(context.getResources().getString(R.string.item), itemMenu);
         expandableListData.put(context.getResources().getString(R.string.creditcard), creditCardMenu);
         expandableListData.put(context.getResources().getString(R.string.income), incomeMenu);

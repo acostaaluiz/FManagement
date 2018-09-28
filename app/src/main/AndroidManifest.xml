@@ -36,6 +36,7 @@
         <activity android:name=".activities.ListIncomeActivity" />
         <activity android:name=".activities.ListCreditCardActivity" />
         <activity android:name=".activities.ListItemActivity" />
+        <activity android:name=".activities.ListCustomerActivity" />
     </application>
 
 </manifest>

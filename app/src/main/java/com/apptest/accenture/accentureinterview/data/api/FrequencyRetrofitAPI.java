@@ -10,7 +10,6 @@ import retrofit2.http.Header;
 
 public interface FrequencyRetrofitAPI {
 
-    //String BASE_SERVICE = "http://10.0.2.2:8080/FManagementAPI/webresources/frequencycontroller/";
     String BASE_SERVICE = "http://10.0.2.2:3000/frequencycontroller/";
 
     @GET("getallfrequencies")

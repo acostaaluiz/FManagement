@@ -7,15 +7,20 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.apptest.accenture.accentureinterview.R;
 import com.apptest.accenture.accentureinterview.activities.ErrorMessageActivity;
 import com.apptest.accenture.accentureinterview.activities.ListItemActivity;
+import com.apptest.accenture.accentureinterview.adapters.MeterUnitSpinnerAdapter;
 import com.apptest.accenture.accentureinterview.app.MyApplication;
 import com.apptest.accenture.accentureinterview.model.ModelItem;
+import com.apptest.accenture.accentureinterview.model.ModelMeterUnit;
 import com.apptest.accenture.accentureinterview.presenter.PresenterItem;
 import com.apptest.accenture.accentureinterview.utility.ProgressDialog;
 import com.apptest.accenture.accentureinterview.view.Item;
@@ -30,9 +35,11 @@ public class FragmentItem extends Fragment implements Item.View{
     private EditText txtItemStoredQuantityValue;
     private Button btnRegister;
     private TextView txtViewList;
+    private Spinner spnMeterUnit;
     private ProgressDialog progressDialog;
     private Item.Presenter itemPresenter;
     private ModelItem myModelItem;
+    private ModelMeterUnit myModelMeterUnit;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
@@ -45,6 +52,7 @@ public class FragmentItem extends Fragment implements Item.View{
         txtItemStoredQuantityValue = vw.findViewById(R.id.txtItemStoredQuantityValue);
         btnRegister = vw.findViewById(R.id.btnRegister);
         txtViewList = vw.findViewById(R.id.txtViewList);
+        spnMeterUnit = vw.findViewById(R.id.spnMeterUnit);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +63,7 @@ public class FragmentItem extends Fragment implements Item.View{
                 String itemPrice = txtItemPriceValue.getText().toString();
                 String itemStoredQuantity = txtItemStoredQuantityValue.getText().toString();
 
-                myModelItem = new ModelItem(item, itemName, itemPrice, itemStoredQuantity);
+                myModelItem = new ModelItem(item, itemName, itemPrice, itemStoredQuantity, myModelMeterUnit.getMeterUnit());
 
                 itemPresenter.creationItemProcess(myModelItem);
 
@@ -71,7 +79,23 @@ public class FragmentItem extends Fragment implements Item.View{
             }
         });
 
+        spnMeterUnit.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parentView, View selectedItemView, int position, long id) {
+
+                MeterUnitSpinnerAdapter spinnerAdapter = (MeterUnitSpinnerAdapter) spnMeterUnit.getAdapter();
+
+                myModelMeterUnit = spinnerAdapter.getItem(position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parentView) {
+            }
+
+        });
+
         itemPresenter = new PresenterItem(this, getContext());
+        itemPresenter.initInterface();
 
         return vw;
     }
@@ -121,6 +145,18 @@ public class FragmentItem extends Fragment implements Item.View{
         callErrorMessageActivity(
                 getResources().getString(R.string.error),
                 error);
+    }
+
+    @Override
+    public void loadMeterUnitSpinner(ArrayList<ModelMeterUnit> meterUnits) {
+
+        ArrayAdapter<ModelMeterUnit> adapter = new MeterUnitSpinnerAdapter(
+                getActivity(),
+                android.R.layout.simple_spinner_dropdown_item,
+                meterUnits
+        );
+
+        spnMeterUnit.setAdapter(adapter);
     }
 
     @Override

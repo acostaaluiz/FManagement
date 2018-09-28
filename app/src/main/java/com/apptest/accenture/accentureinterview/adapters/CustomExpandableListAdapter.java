@@ -77,6 +77,10 @@ public class CustomExpandableListAdapter extends BaseExpandableListAdapter {
             expandedListTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_manager, 0, 0, 0);
          else if(expandedListText.equals("Logout"))
             expandedListTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_logout, 0, 0, 0);
+         else if(expandedListText.equals("Cadastrar Cliente"))
+            expandedListTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_customer, 0, 0, 0);
+         else if(expandedListText.equals("Listar Clientes"))
+            expandedListTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_list, 0, 0, 0);
 
         expandedListTextView.setCompoundDrawablePadding(64);
 

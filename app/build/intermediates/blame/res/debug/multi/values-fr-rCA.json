@@ -410,18 +410,18 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 110,
-                    "endOffset": 161
+                    "endOffset": 211
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 55,
+                        "startOffset": 105,
                         "endColumn": 110,
-                        "endOffset": 161
+                        "endOffset": 211
                     }
                 }
             },
@@ -429,18 +429,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 166,
-                    "endColumn": 107,
-                    "endOffset": 269
+                    "startOffset": 216,
+                    "endColumn": 114,
+                    "endOffset": 326
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 166,
-                        "endColumn": 107,
-                        "endOffset": 269
+                        "startOffset": 216,
+                        "endColumn": 114,
+                        "endOffset": 326
                     }
                 }
             },
@@ -448,18 +448,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 274,
-                    "endColumn": 122,
-                    "endOffset": 392
+                    "startOffset": 331,
+                    "endColumn": 110,
+                    "endOffset": 437
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 274,
-                        "endColumn": 122,
-                        "endOffset": 392
+                        "startOffset": 331,
+                        "endColumn": 110,
+                        "endOffset": 437
                     }
                 }
             },
@@ -467,18 +467,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 397,
-                    "endColumn": 114,
-                    "endOffset": 507
+                    "startOffset": 442,
+                    "endColumn": 86,
+                    "endOffset": 524
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 397,
-                        "endColumn": 114,
-                        "endOffset": 507
+                        "startOffset": 442,
+                        "endColumn": 86,
+                        "endOffset": 524
                     }
                 }
             },
@@ -486,18 +486,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 512,
-                    "endColumn": 110,
-                    "endOffset": 618
+                    "startOffset": 529,
+                    "endColumn": 115,
+                    "endOffset": 640
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 512,
-                        "endColumn": 110,
-                        "endOffset": 618
+                        "startOffset": 529,
+                        "endColumn": 115,
+                        "endOffset": 640
                     }
                 }
             },
@@ -505,18 +505,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 623,
-                    "endColumn": 86,
-                    "endOffset": 705
+                    "startOffset": 645,
+                    "endColumn": 129,
+                    "endOffset": 770
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 623,
-                        "endColumn": 86,
-                        "endOffset": 705
+                        "startOffset": 645,
+                        "endColumn": 129,
+                        "endOffset": 770
                     }
                 }
             },
@@ -524,18 +524,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 710,
-                    "endColumn": 115,
-                    "endOffset": 821
+                    "startOffset": 775,
+                    "endColumn": 82,
+                    "endOffset": 853
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 710,
-                        "endColumn": 115,
-                        "endOffset": 821
+                        "startOffset": 775,
+                        "endColumn": 82,
+                        "endOffset": 853
                     }
                 }
             },
@@ -543,18 +543,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 826,
-                    "endColumn": 129,
-                    "endOffset": 951
+                    "startOffset": 858,
+                    "endColumn": 79,
+                    "endOffset": 933
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 826,
-                        "endColumn": 129,
-                        "endOffset": 951
+                        "startOffset": 858,
+                        "endColumn": 79,
+                        "endOffset": 933
                     }
                 }
             },
@@ -562,18 +562,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 956,
-                    "endColumn": 82,
-                    "endOffset": 1034
+                    "startOffset": 938,
+                    "endColumn": 95,
+                    "endOffset": 1029
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 956,
-                        "endColumn": 82,
-                        "endOffset": 1034
+                        "startOffset": 938,
+                        "endColumn": 95,
+                        "endOffset": 1029
                     }
                 }
             },
@@ -581,18 +581,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1039,
-                    "endColumn": 79,
-                    "endOffset": 1114
+                    "startOffset": 1034,
+                    "endColumn": 109,
+                    "endOffset": 1139
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1039,
-                        "endColumn": 79,
-                        "endOffset": 1114
+                        "startOffset": 1034,
+                        "endColumn": 109,
+                        "endOffset": 1139
                     }
                 }
             },
@@ -600,18 +600,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1119,
-                    "endColumn": 95,
-                    "endOffset": 1210
+                    "startOffset": 1144,
+                    "endColumn": 111,
+                    "endOffset": 1251
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1119,
-                        "endColumn": 95,
-                        "endOffset": 1210
+                        "startOffset": 1144,
+                        "endColumn": 111,
+                        "endOffset": 1251
                     }
                 }
             },
@@ -619,18 +619,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1215,
-                    "endColumn": 109,
-                    "endOffset": 1320
+                    "startOffset": 1256,
+                    "endColumn": 102,
+                    "endOffset": 1354
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1215,
-                        "endColumn": 109,
-                        "endOffset": 1320
+                        "startOffset": 1256,
+                        "endColumn": 102,
+                        "endOffset": 1354
                     }
                 }
             },
@@ -638,18 +638,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1325,
-                    "endColumn": 111,
-                    "endOffset": 1432
+                    "startOffset": 1359,
+                    "endColumn": 110,
+                    "endOffset": 1465
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1325,
-                        "endColumn": 111,
-                        "endOffset": 1432
+                        "startOffset": 1359,
+                        "endColumn": 110,
+                        "endOffset": 1465
                     }
                 }
             },
@@ -657,18 +657,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1437,
-                    "endColumn": 102,
-                    "endOffset": 1535
+                    "startOffset": 1470,
+                    "endColumn": 106,
+                    "endOffset": 1572
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1437,
-                        "endColumn": 102,
-                        "endOffset": 1535
+                        "startOffset": 1470,
+                        "endColumn": 106,
+                        "endOffset": 1572
                     }
                 }
             },
@@ -676,18 +676,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1540,
-                    "endColumn": 110,
-                    "endOffset": 1646
+                    "startOffset": 1577,
+                    "endColumn": 101,
+                    "endOffset": 1674
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1540,
-                        "endColumn": 110,
-                        "endOffset": 1646
+                        "startOffset": 1577,
+                        "endColumn": 101,
+                        "endOffset": 1674
                     }
                 }
             },
@@ -695,18 +695,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1651,
-                    "endColumn": 106,
-                    "endOffset": 1753
+                    "startOffset": 1679,
+                    "endColumn": 158,
+                    "endOffset": 1833
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1651,
-                        "endColumn": 106,
-                        "endOffset": 1753
+                        "startOffset": 1679,
+                        "endColumn": 158,
+                        "endOffset": 1833
                     }
                 }
             },
@@ -714,18 +714,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1758,
-                    "endColumn": 101,
-                    "endOffset": 1855
+                    "startOffset": 1838,
+                    "endColumn": 98,
+                    "endOffset": 1932
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1758,
-                        "endColumn": 101,
-                        "endOffset": 1855
+                        "startOffset": 1838,
+                        "endColumn": 98,
+                        "endOffset": 1932
                     }
                 }
             },
@@ -733,18 +733,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1860,
-                    "endColumn": 121,
-                    "endOffset": 1977
+                    "startOffset": 1937,
+                    "endColumn": 85,
+                    "endOffset": 2018
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 1860,
-                        "endColumn": 121,
-                        "endOffset": 1977
+                        "startOffset": 1937,
+                        "endColumn": 85,
+                        "endOffset": 2018
                     }
                 }
             },
@@ -752,56 +752,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1982,
-                    "endColumn": 98,
-                    "endOffset": 2076
-                },
-                "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1982,
-                        "endColumn": 98,
-                        "endOffset": 2076
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2081,
-                    "endColumn": 85,
-                    "endOffset": 2162
-                },
-                "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2081,
-                        "endColumn": 85,
-                        "endOffset": 2162
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2167,
+                    "startOffset": 2023,
                     "endColumn": 100,
-                    "endOffset": 2263
+                    "endOffset": 2119
                 },
                 "from": {
-                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
+                    "file": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\9bd725ae9377fed05dc8235bb502fa1a73d8c28a\\output\\res\\values-fr-rCA\\values-fr-rCA.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 2167,
+                        "startOffset": 55,
                         "endColumn": 100,
-                        "endOffset": 2263
+                        "endOffset": 151
                     }
                 }
             }

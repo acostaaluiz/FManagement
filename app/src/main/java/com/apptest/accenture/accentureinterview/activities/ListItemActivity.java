@@ -58,7 +58,6 @@ public class ListItemActivity extends AppCompatActivity implements ListItem.View
         myRecyclerView.setHasFixedSize(true);
         myRecyclerView.setLayoutManager(myLayouyManager);
         myRecyclerView.setAdapter(myRecyclerViewAdpter);
-
     }
 
     @Override

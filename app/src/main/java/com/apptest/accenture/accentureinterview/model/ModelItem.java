@@ -8,14 +8,16 @@ public class ModelItem {
     private String itemStoredQuantity;
     private String creationData;
     private String lastUpdateData;
+    private String meterUnit;
     private String response;
 
-    public ModelItem (String item, String itemName, String itemPrice, String itemStoredQuantity){
+    public ModelItem (String item, String itemName, String itemPrice, String itemStoredQuantity, String meterUnit){
 
         this.item = item;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
         this.itemStoredQuantity = itemStoredQuantity;
+        this.meterUnit = meterUnit;
     }
 
     public String getItem() {
@@ -48,6 +50,14 @@ public class ModelItem {
 
     public void setItemStoredQuantity(String itemStoredQuantity) {
         this.itemStoredQuantity = itemStoredQuantity;
+    }
+
+    public String getMeterUnit() {
+        return meterUnit;
+    }
+
+    public void setMeterUnit(String meterUnit) {
+        this.meterUnit = meterUnit;
     }
 
     public String getCreationData() {

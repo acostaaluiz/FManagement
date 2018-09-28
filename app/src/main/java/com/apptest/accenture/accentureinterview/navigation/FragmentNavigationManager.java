@@ -11,6 +11,7 @@ import com.apptest.accenture.accentureinterview.activities.LoggedInActivity;
 import com.apptest.accenture.accentureinterview.fragments.FragmentCategory;
 import com.apptest.accenture.accentureinterview.fragments.FragmentCategoryIncome;
 import com.apptest.accenture.accentureinterview.fragments.FragmentCreditCard;
+import com.apptest.accenture.accentureinterview.fragments.FragmentCustomer;
 import com.apptest.accenture.accentureinterview.fragments.FragmentExpense;
 import com.apptest.accenture.accentureinterview.fragments.FragmentIncome;
 import com.apptest.accenture.accentureinterview.fragments.FragmentItem;
@@ -91,5 +92,11 @@ public class FragmentNavigationManager implements NavigationManager {
     public void showFragmentExpense() {
         FragmentExpense fragmentExpense = new FragmentExpense();
         showFragment(fragmentExpense, false);
+    }
+
+    @Override
+    public void showFragmentCustomer() {
+        FragmentCustomer fragmentCustomer = new FragmentCustomer();
+        showFragment(fragmentCustomer, false);
     }
 }

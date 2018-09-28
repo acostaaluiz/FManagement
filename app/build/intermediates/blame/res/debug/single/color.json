@@ -1,15 +1,15 @@
 [
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\9423bcd8d2d0ca4fd160fcc997c888d0910c41ac\\output\\res\\color\\design_error.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\8a625bd591dcca94ca971a8fe5f8ab013d9630b9\\output\\res\\color\\design_error.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
@@ -21,15 +21,19 @@
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
@@ -37,7 +41,7 @@
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -61,11 +65,11 @@
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\switch_thumb_material_light.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
@@ -73,11 +77,11 @@
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_search_url_text.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -89,10 +93,14 @@
     },
     {
         "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\578144aaa3b2f6a056606ba6dbd2f892941e623e\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\AndroidStudioProject\\fmanagement_new\\FManagement\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
         "source": "C:\\Users\\flavio.luiz.costa\\.android\\build-cache\\c8e0184c061f335499f1dc6f0cf6417a0cae07d4\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Flavio Luiz\\Desktop\\AccentureInterview\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Flavio Luiz\\.android\\build-cache\\37835eb18496cba34f640da2827c552aa256997f\\output\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

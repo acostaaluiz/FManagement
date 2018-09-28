@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="26" />
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -39,13 +39,7 @@
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListIncomeActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListCreditCardActivity" />
         <activity android:name="com.apptest.accenture.accentureinterview.activities.ListItemActivity" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
+        <activity android:name="com.apptest.accenture.accentureinterview.activities.ListCustomerActivity" />
     </application>
 
 </manifest>
